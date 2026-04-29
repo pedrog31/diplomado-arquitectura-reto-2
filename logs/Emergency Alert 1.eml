@@ -1,0 +1,60 @@
+Delivered-To: pedropablo1996@gmail.com
+Received: by 2002:aa7:cd8c:0:b0:672:299f:aba8 with SMTP id x12csp967941edv;
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+X-Received: by 2002:a05:620a:4115:b0:8cd:871c:909d with SMTP id af79cd13be357-8f7d9c094a9mr883487285a.53.1777447523442;
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1777447523; cv=none;
+        d=google.com; s=arc-20240605;
+        b=BPecjgFMPdvRWctnTAEni9kvvFBLEb7Limjc96Nens3SfkilPa75UIthbqaXXftA7e
+         L+wvohxG/EpFj3G5wg133ZhoqgI6q8YscvbK0UzM3gwv37SJW/BJ4LkW3nBJ52xDLwAn
+         vryQpfddY4d5HYSAdI5O55hr8LxK08HiieGkohL3zOgnpTbIFjCbDkQ1Drwh8RBom55x
+         tx+PPikbw6SQirdn1Y+SUCkd8MTMVxIAQcqGTpnmzvhffegDxlOB7nLVXneZeOtYc3bu
+         t0bBfQEqIZJU8qCQLjKJzzewxW52d+3HLHee3AzT3IXxrme/LciGbvxhNmVQR+qLfoVL
+         VOZg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:date:message-id:content-transfer-encoding:mime-version
+         :subject:to:from:dkim-signature;
+        bh=8DIAhnB4msPgQ9r7tOvaZClK6aLHzFOu82Uqay1mfEw=;
+        fh=Q8rq9ZInScX3HET3vZpLG7IiQVHjEdiVEb9FNULNIJA=;
+        b=NPBmRs8urKzupR0CiNXfZCgNV8E8H2tE10Mf96b0qFY6AwH/qoPBMi/T3sHB9RzvuA
+         OUUeaHyeFiZPg14qTC8uwD5SR3GqhTsSRoQAaZUR5B16YD8OUoPyfNa70g6p9+y2ciyt
+         88rE+iBQKAHlNmEgp9DkbEH5UiPwzANnDkvE1bWw6F6yuFgagPK1ZYwevr0M2sxkpjb2
+         4AzS9wpi/z9kbLkQNhZpJSLHd8gCOxCiYLKUtvtJ+hYqO2GUyB12zXDzc4a4OV6nKeGe
+         5HdjfXq2v+MQtl04pzaWROZ3ImZeELpkIdhyrQhM+/KGTa0dbzW9vgCRJzShVuVSIIgW
+         /jFA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=uP7t2f3b;
+       spf=pass (google.com: domain of 0100019dd820d2eb-c5515e27-84b0-41fb-86e2-569acbf60379-000000@amazonses.com designates 54.240.8.24 as permitted sender) smtp.mailfrom=0100019dd820d2eb-c5515e27-84b0-41fb-86e2-569acbf60379-000000@amazonses.com;
+       dmarc=fail (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <0100019dd820d2eb-c5515e27-84b0-41fb-86e2-569acbf60379-000000@amazonses.com>
+Received: from a8-24.smtp-out.amazonses.com (a8-24.smtp-out.amazonses.com. [54.240.8.24])
+        by mx.google.com with ESMTPS id 6a1803df08f44-8b3efa1170asi17539486d6.643.2026.04.29.00.25.23
+        for <pedropablo1996@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0100019dd820d2eb-c5515e27-84b0-41fb-86e2-569acbf60379-000000@amazonses.com designates 54.240.8.24 as permitted sender) client-ip=54.240.8.24;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=uP7t2f3b;
+       spf=pass (google.com: domain of 0100019dd820d2eb-c5515e27-84b0-41fb-86e2-569acbf60379-000000@amazonses.com designates 54.240.8.24 as permitted sender) smtp.mailfrom=0100019dd820d2eb-c5515e27-84b0-41fb-86e2-569acbf60379-000000@amazonses.com;
+       dmarc=fail (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1777447523;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID;
+	bh=8DIAhnB4msPgQ9r7tOvaZClK6aLHzFOu82Uqay1mfEw=;
+	b=uP7t2f3bTjENMdcAgmnHaIBj7PX2fYRhOlaAlpCXMk7vHxyhi+vSVlK/FmVJ5XFe
+	CbHRGue0b+GLjhiZXcNokO9tIX5F7S/4A8zprWB+EmKZ9yJOSPy44RNLCWaBkrogZxa
+	Z6VF6GB/SqOHIquAKslh6EcwPjMLet3/r2R7kc14=
+From: pedropablo1996@gmail.com
+To: pedropablo1996@gmail.com
+Subject: Emergency Alert
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-ID: <0100019dd820d2eb-c5515e27-84b0-41fb-86e2-569acbf60379-000000@email.amazonses.com>
+Date: Wed, 29 Apr 2026 07:25:23 +0000
+Feedback-ID: ::1.us-east-1.UR6Lxg/02HPCx8MlubjTKsemPXs/ySchaOR0TG+iJDk=:AmazonSES
+X-SES-Outgoing: 2026.04.29-54.240.8.24
+
+Emergency from vehicle: DHO-135
+Coordinates: 72.010261, 39.276802

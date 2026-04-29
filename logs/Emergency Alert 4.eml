@@ -1,0 +1,60 @@
+Delivered-To: pedropablo1996@gmail.com
+Received: by 2002:aa7:cd8c:0:b0:672:299f:aba8 with SMTP id x12csp967939edv;
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+X-Received: by 2002:a05:622a:4d06:b0:50b:3a6d:db4b with SMTP id d75a77b69052e-51018abc9a4mr40874201cf.55.1777447523220;
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1777447523; cv=none;
+        d=google.com; s=arc-20240605;
+        b=KuMhLLAbdnoybY5/PMqYyIcwoeY4LCQThCh3mJv0cu14zrdSFmygU3ABrQlMJJ3pbk
+         vKNlOqSIsuTjrBCQFusdkaPE/1XYBY4FqLi0WorUw9qBcrzHLrfOs7HnsNZOo+FJ29Gm
+         43Ev+y3Zq7xTghUKP3R64/+7OjGbJJ9xmyQnHMip+4H91iJfnaSLn4kl1TLOJ4jkHoRU
+         GwF2iTCDoFWJkyhUFUhD0AxlGU1FRJNodPVQqu2LACtA7SWsG2nU/sttkFzkhbAInprj
+         PJqsG3xTkxNljNJ7hwUHVr7WtOqvUXylXcxGl/N06uaatlgIpExLFi6ZpbvkGV1tTtcG
+         QoNA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:date:message-id:content-transfer-encoding:mime-version
+         :subject:to:from:dkim-signature;
+        bh=Y59HOjlzdpj4Z+nHrAwEaK/+WlOLoYKBJS/LpYqtZqE=;
+        fh=Q8rq9ZInScX3HET3vZpLG7IiQVHjEdiVEb9FNULNIJA=;
+        b=AaXpbv6CbGpiXvh037Bh7X09CfXvKyxlk32ljvZJfBvn/od3EVhXqTvtwYEvtaTlCQ
+         MHnjkf1YQG2Y+Y403y3E7dAFkryWpTJ7s0FA4Qb4f0MYYPCvXnkgAiCBw4r1BoaPsz5U
+         Tlz2OJ61CZQWg1Pzxxe3l8s8E67vYP5v5Ja2ny4SZQKvSGk5u7iXvKki86GO7mUDgf0d
+         oP8pCmTTrr3vJSacLisNZu/cUhe7qW89cMBdjoMjcIImOHCIOKCRVyqeFNfSt/coXH05
+         91fEKOn0uJM5Pdljq/JIQF3LKj6gNtnR15XY70l/a2wzIOUREyT0hSQkqrlf0YPocRxn
+         FQ5Q==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=jsrBD9fz;
+       spf=pass (google.com: domain of 0100019dd820d221-fd94a3ca-384d-4969-9211-59ffdcc40798-000000@amazonses.com designates 54.240.48.99 as permitted sender) smtp.mailfrom=0100019dd820d221-fd94a3ca-384d-4969-9211-59ffdcc40798-000000@amazonses.com;
+       dmarc=fail (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <0100019dd820d221-fd94a3ca-384d-4969-9211-59ffdcc40798-000000@amazonses.com>
+Received: from a48-99.smtp-out.amazonses.com (a48-99.smtp-out.amazonses.com. [54.240.48.99])
+        by mx.google.com with ESMTPS id d75a77b69052e-5101acbf825si15250301cf.97.2026.04.29.00.25.23
+        for <pedropablo1996@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0100019dd820d221-fd94a3ca-384d-4969-9211-59ffdcc40798-000000@amazonses.com designates 54.240.48.99 as permitted sender) client-ip=54.240.48.99;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=jsrBD9fz;
+       spf=pass (google.com: domain of 0100019dd820d221-fd94a3ca-384d-4969-9211-59ffdcc40798-000000@amazonses.com designates 54.240.48.99 as permitted sender) smtp.mailfrom=0100019dd820d221-fd94a3ca-384d-4969-9211-59ffdcc40798-000000@amazonses.com;
+       dmarc=fail (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1777447522;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID;
+	bh=Y59HOjlzdpj4Z+nHrAwEaK/+WlOLoYKBJS/LpYqtZqE=;
+	b=jsrBD9fznT13qrpC95XywWKBvownnZIwMkCXpc7zSPvsZoHlcUljfauPmv6JQiVs
+	f5aJoFCO0cUAJq9pImyeDszrwSH5PbqhbRzeY6zBXaG1TRi0QF4Bo8t3J5t/lvbmyQX
+	vg/9hKKl0N1Gs91k8ZD6PA2b0uwi9ImDD/0bHsCg=
+From: pedropablo1996@gmail.com
+To: pedropablo1996@gmail.com
+Subject: Emergency Alert
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-ID: <0100019dd820d221-fd94a3ca-384d-4969-9211-59ffdcc40798-000000@email.amazonses.com>
+Date: Wed, 29 Apr 2026 07:25:22 +0000
+Feedback-ID: ::1.us-east-1.UR6Lxg/02HPCx8MlubjTKsemPXs/ySchaOR0TG+iJDk=:AmazonSES
+X-SES-Outgoing: 2026.04.29-54.240.48.99
+
+Emergency from vehicle: RRE-885
+Coordinates: -4.961422, 140.087523

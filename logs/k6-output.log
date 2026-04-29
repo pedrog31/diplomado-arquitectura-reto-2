@@ -1,0 +1,1125 @@
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: k6-script.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 10 max VUs, 1m0s max duration (incl. graceful stop):
+              * default: 1000 iterations shared among 10 VUs (maxDuration: 30s, gracefulStop: 30s)
+
+time="2026-04-29T02:24:53-05:00" level=info msg="{\"globalIndex\":900,\"timestamp\":\"2026-04-29T07:24:53.791Z\",\"status\":200,\"duration\":149.331}" source=console
+time="2026-04-29T02:24:53-05:00" level=info msg="{\"globalIndex\":300,\"timestamp\":\"2026-04-29T07:24:53.791Z\",\"status\":200,\"duration\":141.539}" source=console
+time="2026-04-29T02:24:53-05:00" level=info msg="{\"globalIndex\":100,\"timestamp\":\"2026-04-29T07:24:53.791Z\",\"status\":200,\"duration\":147.223}" source=console
+time="2026-04-29T02:24:53-05:00" level=info msg="{\"globalIndex\":600,\"timestamp\":\"2026-04-29T07:24:53.793Z\",\"status\":200,\"duration\":157.844}" source=console
+time="2026-04-29T02:24:53-05:00" level=info msg="{\"globalIndex\":200,\"timestamp\":\"2026-04-29T07:24:53.794Z\",\"status\":200,\"duration\":151.922}" source=console
+time="2026-04-29T02:24:53-05:00" level=info msg="{\"globalIndex\":400,\"timestamp\":\"2026-04-29T07:24:53.894Z\",\"status\":200,\"duration\":259.922}" source=console
+time="2026-04-29T02:24:53-05:00" level=info msg="{\"globalIndex\":500,\"timestamp\":\"2026-04-29T07:24:53.909Z\",\"status\":200,\"duration\":264.662}" source=console
+time="2026-04-29T02:24:53-05:00" level=info msg="{\"globalIndex\":800,\"timestamp\":\"2026-04-29T07:24:53.909Z\",\"status\":200,\"duration\":263.377}" source=console
+time="2026-04-29T02:24:53-05:00" level=info msg="{\"globalIndex\":0,\"timestamp\":\"2026-04-29T07:24:53.915Z\",\"status\":200,\"duration\":271.953}" source=console
+time="2026-04-29T02:24:53-05:00" level=info msg="{\"globalIndex\":700,\"timestamp\":\"2026-04-29T07:24:53.935Z\",\"status\":200,\"duration\":287.998}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":201,\"timestamp\":\"2026-04-29T07:24:54.037Z\",\"status\":200,\"duration\":142.898}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":601,\"timestamp\":\"2026-04-29T07:24:54.037Z\",\"status\":200,\"duration\":143.32}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":101,\"timestamp\":\"2026-04-29T07:24:54.050Z\",\"status\":200,\"duration\":156.63}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":301,\"timestamp\":\"2026-04-29T07:24:54.113Z\",\"status\":200,\"duration\":219.98}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":901,\"timestamp\":\"2026-04-29T07:24:54.167Z\",\"status\":200,\"duration\":273.08}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":801,\"timestamp\":\"2026-04-29T07:24:54.173Z\",\"status\":200,\"duration\":161.923}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":1,\"timestamp\":\"2026-04-29T07:24:54.181Z\",\"status\":200,\"duration\":163.077}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":501,\"timestamp\":\"2026-04-29T07:24:54.275Z\",\"status\":200,\"duration\":264.658}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":401,\"timestamp\":\"2026-04-29T07:24:54.298Z\",\"status\":200,\"duration\":303.318}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":701,\"timestamp\":\"2026-04-29T07:24:54.298Z\",\"status\":200,\"duration\":262.117}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":102,\"timestamp\":\"2026-04-29T07:24:54.304Z\",\"status\":200,\"duration\":153.109}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":202,\"timestamp\":\"2026-04-29T07:24:54.411Z\",\"status\":200,\"duration\":272.835}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":602,\"timestamp\":\"2026-04-29T07:24:54.413Z\",\"status\":200,\"duration\":275.059}" source=console
+
+running (0m01.0s), 10/10 VUs, 21 complete and 0 interrupted iterations
+default   [   2% ] 10 VUs  01.0s/30s  0021/1000 shared iters
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":2,\"timestamp\":\"2026-04-29T07:24:54.560Z\",\"status\":200,\"duration\":278.529}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":302,\"timestamp\":\"2026-04-29T07:24:54.560Z\",\"status\":200,\"duration\":345.649}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":902,\"timestamp\":\"2026-04-29T07:24:54.560Z\",\"status\":200,\"duration\":291.905}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":802,\"timestamp\":\"2026-04-29T07:24:54.560Z\",\"status\":200,\"duration\":287.476}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":502,\"timestamp\":\"2026-04-29T07:24:54.636Z\",\"status\":200,\"duration\":260.569}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":702,\"timestamp\":\"2026-04-29T07:24:54.665Z\",\"status\":200,\"duration\":266.583}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":103,\"timestamp\":\"2026-04-29T07:24:54.667Z\",\"status\":200,\"duration\":262.017}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":402,\"timestamp\":\"2026-04-29T07:24:54.685Z\",\"status\":200,\"duration\":286.957}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":203,\"timestamp\":\"2026-04-29T07:24:54.696Z\",\"status\":200,\"duration\":184.656}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":3,\"timestamp\":\"2026-04-29T07:24:54.791Z\",\"status\":200,\"duration\":129.229}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":603,\"timestamp\":\"2026-04-29T07:24:54.830Z\",\"status\":200,\"duration\":316.892}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":303,\"timestamp\":\"2026-04-29T07:24:54.856Z\",\"status\":200,\"duration\":193.947}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":403,\"timestamp\":\"2026-04-29T07:24:54.876Z\",\"status\":200,\"duration\":89.442}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":503,\"timestamp\":\"2026-04-29T07:24:54.884Z\",\"status\":200,\"duration\":146.145}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":803,\"timestamp\":\"2026-04-29T07:24:54.928Z\",\"status\":200,\"duration\":266.643}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":903,\"timestamp\":\"2026-04-29T07:24:54.928Z\",\"status\":200,\"duration\":266.613}" source=console
+time="2026-04-29T02:24:54-05:00" level=info msg="{\"globalIndex\":204,\"timestamp\":\"2026-04-29T07:24:54.938Z\",\"status\":200,\"duration\":141.721}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":104,\"timestamp\":\"2026-04-29T07:24:55.085Z\",\"status\":200,\"duration\":318.365}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":703,\"timestamp\":\"2026-04-29T07:24:55.085Z\",\"status\":200,\"duration\":319.151}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":604,\"timestamp\":\"2026-04-29T07:24:55.085Z\",\"status\":200,\"duration\":154.434}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":504,\"timestamp\":\"2026-04-29T07:24:55.122Z\",\"status\":200,\"duration\":137.039}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":4,\"timestamp\":\"2026-04-29T07:24:55.165Z\",\"status\":200,\"duration\":272.357}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":304,\"timestamp\":\"2026-04-29T07:24:55.174Z\",\"status\":200,\"duration\":216.558}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":205,\"timestamp\":\"2026-04-29T07:24:55.213Z\",\"status\":200,\"duration\":173.795}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":404,\"timestamp\":\"2026-04-29T07:24:55.239Z\",\"status\":200,\"duration\":262.442}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":904,\"timestamp\":\"2026-04-29T07:24:55.254Z\",\"status\":200,\"duration\":224.704}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":105,\"timestamp\":\"2026-04-29T07:24:55.301Z\",\"status\":200,\"duration\":113.263}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":704,\"timestamp\":\"2026-04-29T07:24:55.334Z\",\"status\":200,\"duration\":145.853}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":605,\"timestamp\":\"2026-04-29T07:24:55.334Z\",\"status\":200,\"duration\":146.093}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":804,\"timestamp\":\"2026-04-29T07:24:55.347Z\",\"status\":200,\"duration\":317.863}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":505,\"timestamp\":\"2026-04-29T07:24:55.354Z\",\"status\":200,\"duration\":131.697}" source=console
+
+running (0m02.0s), 10/10 VUs, 50 complete and 0 interrupted iterations
+default   [   5% ] 10 VUs  02.0s/30s  0050/1000 shared iters
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":206,\"timestamp\":\"2026-04-29T07:24:55.463Z\",\"status\":200,\"duration\":148.565}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":405,\"timestamp\":\"2026-04-29T07:24:55.493Z\",\"status\":200,\"duration\":152.959}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":106,\"timestamp\":\"2026-04-29T07:24:55.518Z\",\"status\":200,\"duration\":114.824}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":305,\"timestamp\":\"2026-04-29T07:24:55.609Z\",\"status\":200,\"duration\":334.359}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":705,\"timestamp\":\"2026-04-29T07:24:55.609Z\",\"status\":200,\"duration\":173.517}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":5,\"timestamp\":\"2026-04-29T07:24:55.609Z\",\"status\":200,\"duration\":342.683}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":905,\"timestamp\":\"2026-04-29T07:24:55.624Z\",\"status\":200,\"duration\":268.858}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":606,\"timestamp\":\"2026-04-29T07:24:55.697Z\",\"status\":200,\"duration\":261.951}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":506,\"timestamp\":\"2026-04-29T07:24:55.705Z\",\"status\":200,\"duration\":249.311}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":406,\"timestamp\":\"2026-04-29T07:24:55.709Z\",\"status\":200,\"duration\":114.719}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":207,\"timestamp\":\"2026-04-29T07:24:55.718Z\",\"status\":200,\"duration\":153.847}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":805,\"timestamp\":\"2026-04-29T07:24:55.718Z\",\"status\":200,\"duration\":270.139}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":107,\"timestamp\":\"2026-04-29T07:24:55.761Z\",\"status\":200,\"duration\":142.04}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":6,\"timestamp\":\"2026-04-29T07:24:55.815Z\",\"status\":200,\"duration\":103.409}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":306,\"timestamp\":\"2026-04-29T07:24:55.858Z\",\"status\":200,\"duration\":146.611}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":906,\"timestamp\":\"2026-04-29T07:24:55.873Z\",\"status\":200,\"duration\":148.159}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":407,\"timestamp\":\"2026-04-29T07:24:55.939Z\",\"status\":200,\"duration\":129.21}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":507,\"timestamp\":\"2026-04-29T07:24:55.946Z\",\"status\":200,\"duration\":139.54}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":208,\"timestamp\":\"2026-04-29T07:24:55.955Z\",\"status\":200,\"duration\":135.494}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":806,\"timestamp\":\"2026-04-29T07:24:55.958Z\",\"status\":200,\"duration\":138.275}" source=console
+time="2026-04-29T02:24:55-05:00" level=info msg="{\"globalIndex\":706,\"timestamp\":\"2026-04-29T07:24:55.977Z\",\"status\":200,\"duration\":265.556}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":607,\"timestamp\":\"2026-04-29T07:24:56.137Z\",\"status\":200,\"duration\":338.586}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":108,\"timestamp\":\"2026-04-29T07:24:56.137Z\",\"status\":200,\"duration\":274.746}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":307,\"timestamp\":\"2026-04-29T07:24:56.137Z\",\"status\":200,\"duration\":177.663}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":7,\"timestamp\":\"2026-04-29T07:24:56.184Z\",\"status\":200,\"duration\":267.608}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":907,\"timestamp\":\"2026-04-29T07:24:56.200Z\",\"status\":200,\"duration\":227.204}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":508,\"timestamp\":\"2026-04-29T07:24:56.287Z\",\"status\":200,\"duration\":239.654}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":209,\"timestamp\":\"2026-04-29T07:24:56.287Z\",\"status\":200,\"duration\":230.273}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":109,\"timestamp\":\"2026-04-29T07:24:56.373Z\",\"status\":200,\"duration\":135.164}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":608,\"timestamp\":\"2026-04-29T07:24:56.394Z\",\"status\":200,\"duration\":155.78}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":408,\"timestamp\":\"2026-04-29T07:24:56.394Z\",\"status\":200,\"duration\":353.378}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":707,\"timestamp\":\"2026-04-29T07:24:56.398Z\",\"status\":200,\"duration\":320.054}" source=console
+
+running (0m03.0s), 10/10 VUs, 82 complete and 0 interrupted iterations
+default   [   8% ] 10 VUs  03.0s/30s  0082/1000 shared iters
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":807,\"timestamp\":\"2026-04-29T07:24:56.437Z\",\"status\":200,\"duration\":378.82}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":308,\"timestamp\":\"2026-04-29T07:24:56.510Z\",\"status\":200,\"duration\":271.732}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":908,\"timestamp\":\"2026-04-29T07:24:56.564Z\",\"status\":200,\"duration\":262.312}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":609,\"timestamp\":\"2026-04-29T07:24:56.658Z\",\"status\":200,\"duration\":163.535}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":110,\"timestamp\":\"2026-04-29T07:24:56.658Z\",\"status\":200,\"duration\":183.631}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":8,\"timestamp\":\"2026-04-29T07:24:56.659Z\",\"status\":200,\"duration\":372.821}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":210,\"timestamp\":\"2026-04-29T07:24:56.659Z\",\"status\":200,\"duration\":270.828}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":509,\"timestamp\":\"2026-04-29T07:24:56.659Z\",\"status\":200,\"duration\":271.386}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":708,\"timestamp\":\"2026-04-29T07:24:56.719Z\",\"status\":200,\"duration\":219.76}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":409,\"timestamp\":\"2026-04-29T07:24:56.761Z\",\"status\":200,\"duration\":263.604}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":808,\"timestamp\":\"2026-04-29T07:24:56.777Z\",\"status\":200,\"duration\":238.839}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":610,\"timestamp\":\"2026-04-29T07:24:56.855Z\",\"status\":200,\"duration\":93.399}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":309,\"timestamp\":\"2026-04-29T07:24:56.888Z\",\"status\":200,\"duration\":276.464}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":111,\"timestamp\":\"2026-04-29T07:24:56.905Z\",\"status\":200,\"duration\":143.282}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":9,\"timestamp\":\"2026-04-29T07:24:56.905Z\",\"status\":200,\"duration\":143.518}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":211,\"timestamp\":\"2026-04-29T07:24:56.909Z\",\"status\":200,\"duration\":147.913}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":909,\"timestamp\":\"2026-04-29T07:24:56.932Z\",\"status\":200,\"duration\":266.339}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":709,\"timestamp\":\"2026-04-29T07:24:56.954Z\",\"status\":200,\"duration\":133.876}" source=console
+time="2026-04-29T02:24:56-05:00" level=info msg="{\"globalIndex\":410,\"timestamp\":\"2026-04-29T07:24:56.997Z\",\"status\":200,\"duration\":134.692}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":510,\"timestamp\":\"2026-04-29T07:24:57.027Z\",\"status\":200,\"duration\":264.14}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":809,\"timestamp\":\"2026-04-29T07:24:57.052Z\",\"status\":200,\"duration\":174.277}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":611,\"timestamp\":\"2026-04-29T07:24:57.183Z\",\"status\":200,\"duration\":227.54}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":112,\"timestamp\":\"2026-04-29T07:24:57.185Z\",\"status\":200,\"duration\":178.96}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":10,\"timestamp\":\"2026-04-29T07:24:57.185Z\",\"status\":200,\"duration\":178.964}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":212,\"timestamp\":\"2026-04-29T07:24:57.185Z\",\"status\":200,\"duration\":174.817}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":310,\"timestamp\":\"2026-04-29T07:24:57.254Z\",\"status\":200,\"duration\":264.553}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":710,\"timestamp\":\"2026-04-29T07:24:57.283Z\",\"status\":200,\"duration\":227.644}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":910,\"timestamp\":\"2026-04-29T07:24:57.372Z\",\"status\":200,\"duration\":339.285}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":11,\"timestamp\":\"2026-04-29T07:24:57.381Z\",\"status\":200,\"duration\":94.965}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":511,\"timestamp\":\"2026-04-29T07:24:57.408Z\",\"status\":200,\"duration\":280.674}" source=console
+
+running (0m04.0s), 10/10 VUs, 113 complete and 0 interrupted iterations
+default   [  11% ] 10 VUs  04.0s/30s  0113/1000 shared iters
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":411,\"timestamp\":\"2026-04-29T07:24:57.424Z\",\"status\":200,\"duration\":325.754}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":810,\"timestamp\":\"2026-04-29T07:24:57.444Z\",\"status\":200,\"duration\":288.498}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":612,\"timestamp\":\"2026-04-29T07:24:57.516Z\",\"status\":200,\"duration\":232.448}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":311,\"timestamp\":\"2026-04-29T07:24:57.547Z\",\"status\":200,\"duration\":190.611}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":213,\"timestamp\":\"2026-04-29T07:24:57.553Z\",\"status\":200,\"duration\":267.52}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":113,\"timestamp\":\"2026-04-29T07:24:57.561Z\",\"status\":200,\"duration\":275.149}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":911,\"timestamp\":\"2026-04-29T07:24:57.608Z\",\"status\":200,\"duration\":134.287}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":711,\"timestamp\":\"2026-04-29T07:24:57.704Z\",\"status\":200,\"duration\":318.076}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":512,\"timestamp\":\"2026-04-29T07:24:57.741Z\",\"status\":200,\"duration\":231.55}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":12,\"timestamp\":\"2026-04-29T07:24:57.746Z\",\"status\":200,\"duration\":263.919}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":811,\"timestamp\":\"2026-04-29T07:24:57.785Z\",\"status\":200,\"duration\":239.875}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":412,\"timestamp\":\"2026-04-29T07:24:57.795Z\",\"status\":200,\"duration\":270.353}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":114,\"timestamp\":\"2026-04-29T07:24:57.806Z\",\"status\":200,\"duration\":144.301}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":912,\"timestamp\":\"2026-04-29T07:24:57.839Z\",\"status\":200,\"duration\":130.225}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":214,\"timestamp\":\"2026-04-29T07:24:57.843Z\",\"status\":200,\"duration\":188.027}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":312,\"timestamp\":\"2026-04-29T07:24:57.843Z\",\"status\":200,\"duration\":192.942}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":13,\"timestamp\":\"2026-04-29T07:24:57.952Z\",\"status\":200,\"duration\":105.004}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":712,\"timestamp\":\"2026-04-29T07:24:57.955Z\",\"status\":200,\"duration\":150.051}" source=console
+time="2026-04-29T02:24:57-05:00" level=info msg="{\"globalIndex\":613,\"timestamp\":\"2026-04-29T07:24:57.966Z\",\"status\":200,\"duration\":346.487}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":513,\"timestamp\":\"2026-04-29T07:24:58.013Z\",\"status\":200,\"duration\":170.37}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":812,\"timestamp\":\"2026-04-29T07:24:58.028Z\",\"status\":200,\"duration\":141.674}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":215,\"timestamp\":\"2026-04-29T07:24:58.080Z\",\"status\":200,\"duration\":136.135}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":115,\"timestamp\":\"2026-04-29T07:24:58.127Z\",\"status\":200,\"duration\":219.956}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":514,\"timestamp\":\"2026-04-29T07:24:58.230Z\",\"status\":200,\"duration\":115.076}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":913,\"timestamp\":\"2026-04-29T07:24:58.230Z\",\"status\":200,\"duration\":289.647}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":614,\"timestamp\":\"2026-04-29T07:24:58.230Z\",\"status\":200,\"duration\":162.457}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":313,\"timestamp\":\"2026-04-29T07:24:58.230Z\",\"status\":200,\"duration\":286.567}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":413,\"timestamp\":\"2026-04-29T07:24:58.230Z\",\"status\":200,\"duration\":333.694}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":813,\"timestamp\":\"2026-04-29T07:24:58.272Z\",\"status\":200,\"duration\":143.146}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":14,\"timestamp\":\"2026-04-29T07:24:58.321Z\",\"status\":200,\"duration\":267.427}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":713,\"timestamp\":\"2026-04-29T07:24:58.329Z\",\"status\":200,\"duration\":272.986}" source=console
+
+running (0m05.0s), 10/10 VUs, 146 complete and 0 interrupted iterations
+default   [  15% ] 10 VUs  05.0s/30s  0146/1000 shared iters
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":414,\"timestamp\":\"2026-04-29T07:24:58.464Z\",\"status\":200,\"duration\":133.325}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":116,\"timestamp\":\"2026-04-29T07:24:58.493Z\",\"status\":200,\"duration\":264.755}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":216,\"timestamp\":\"2026-04-29T07:24:58.495Z\",\"status\":200,\"duration\":314.644}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":914,\"timestamp\":\"2026-04-29T07:24:58.596Z\",\"status\":200,\"duration\":265.368}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":515,\"timestamp\":\"2026-04-29T07:24:58.608Z\",\"status\":200,\"duration\":276.878}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":615,\"timestamp\":\"2026-04-29T07:24:58.608Z\",\"status\":200,\"duration\":277.431}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":314,\"timestamp\":\"2026-04-29T07:24:58.626Z\",\"status\":200,\"duration\":294.242}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":814,\"timestamp\":\"2026-04-29T07:24:58.637Z\",\"status\":200,\"duration\":264.154}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":15,\"timestamp\":\"2026-04-29T07:24:58.646Z\",\"status\":200,\"duration\":223.472}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":714,\"timestamp\":\"2026-04-29T07:24:58.662Z\",\"status\":200,\"duration\":233.119}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":415,\"timestamp\":\"2026-04-29T07:24:58.754Z\",\"status\":200,\"duration\":188.037}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":117,\"timestamp\":\"2026-04-29T07:24:58.754Z\",\"status\":200,\"duration\":159.166}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":217,\"timestamp\":\"2026-04-29T07:24:58.754Z\",\"status\":200,\"duration\":158.219}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":715,\"timestamp\":\"2026-04-29T07:24:58.867Z\",\"status\":200,\"duration\":103.274}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":915,\"timestamp\":\"2026-04-29T07:24:58.893Z\",\"status\":200,\"duration\":195.435}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":315,\"timestamp\":\"2026-04-29T07:24:58.894Z\",\"status\":200,\"duration\":166.806}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":516,\"timestamp\":\"2026-04-29T07:24:58.895Z\",\"status\":200,\"duration\":185.645}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":815,\"timestamp\":\"2026-04-29T07:24:58.897Z\",\"status\":200,\"duration\":158.654}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":218,\"timestamp\":\"2026-04-29T07:24:58.959Z\",\"status\":200,\"duration\":103.985}" source=console
+time="2026-04-29T02:24:58-05:00" level=info msg="{\"globalIndex\":616,\"timestamp\":\"2026-04-29T07:24:58.970Z\",\"status\":200,\"duration\":259.895}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":118,\"timestamp\":\"2026-04-29T07:24:59.006Z\",\"status\":200,\"duration\":150.807}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":16,\"timestamp\":\"2026-04-29T07:24:59.022Z\",\"status\":200,\"duration\":274.259}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":316,\"timestamp\":\"2026-04-29T07:24:59.103Z\",\"status\":200,\"duration\":108.247}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":416,\"timestamp\":\"2026-04-29T07:24:59.126Z\",\"status\":200,\"duration\":270.45}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":816,\"timestamp\":\"2026-04-29T07:24:59.139Z\",\"status\":200,\"duration\":141.308}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":916,\"timestamp\":\"2026-04-29T07:24:59.140Z\",\"status\":200,\"duration\":145.378}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":617,\"timestamp\":\"2026-04-29T07:24:59.175Z\",\"status\":200,\"duration\":103.941}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":716,\"timestamp\":\"2026-04-29T07:24:59.278Z\",\"status\":200,\"duration\":309.461}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":219,\"timestamp\":\"2026-04-29T07:24:59.278Z\",\"status\":200,\"duration\":216.97}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":517,\"timestamp\":\"2026-04-29T07:24:59.278Z\",\"status\":200,\"duration\":282.088}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":317,\"timestamp\":\"2026-04-29T07:24:59.372Z\",\"status\":200,\"duration\":167.29}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":119,\"timestamp\":\"2026-04-29T07:24:59.372Z\",\"status\":200,\"duration\":265.347}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":917,\"timestamp\":\"2026-04-29T07:24:59.379Z\",\"status\":200,\"duration\":137.939}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":17,\"timestamp\":\"2026-04-29T07:24:59.396Z\",\"status\":200,\"duration\":272.506}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":618,\"timestamp\":\"2026-04-29T07:24:59.418Z\",\"status\":200,\"duration\":142.505}" source=console
+
+running (0m06.0s), 10/10 VUs, 177 complete and 0 interrupted iterations
+default   [  18% ] 10 VUs  06.0s/30s  0177/1000 shared iters
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":417,\"timestamp\":\"2026-04-29T07:24:59.491Z\",\"status\":200,\"duration\":265.021}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":717,\"timestamp\":\"2026-04-29T07:24:59.510Z\",\"status\":200,\"duration\":131.367}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":220,\"timestamp\":\"2026-04-29T07:24:59.526Z\",\"status\":200,\"duration\":146.918}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":817,\"timestamp\":\"2026-04-29T07:24:59.546Z\",\"status\":200,\"duration\":306.509}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":918,\"timestamp\":\"2026-04-29T07:24:59.579Z\",\"status\":200,\"duration\":99.215}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":318,\"timestamp\":\"2026-04-29T07:24:59.601Z\",\"status\":200,\"duration\":127.605}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":518,\"timestamp\":\"2026-04-29T07:24:59.650Z\",\"status\":200,\"duration\":270.934}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":418,\"timestamp\":\"2026-04-29T07:24:59.701Z\",\"status\":200,\"duration\":108.039}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":319,\"timestamp\":\"2026-04-29T07:24:59.806Z\",\"status\":200,\"duration\":104.488}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":120,\"timestamp\":\"2026-04-29T07:24:59.806Z\",\"status\":200,\"duration\":332.538}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":619,\"timestamp\":\"2026-04-29T07:24:59.806Z\",\"status\":200,\"duration\":286.499}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":818,\"timestamp\":\"2026-04-29T07:24:59.806Z\",\"status\":200,\"duration\":158.358}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":18,\"timestamp\":\"2026-04-29T07:24:59.806Z\",\"status\":200,\"duration\":309.036}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":919,\"timestamp\":\"2026-04-29T07:24:59.819Z\",\"status\":200,\"duration\":139.162}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":718,\"timestamp\":\"2026-04-29T07:24:59.878Z\",\"status\":200,\"duration\":266.947}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":221,\"timestamp\":\"2026-04-29T07:24:59.898Z\",\"status\":200,\"duration\":271.349}" source=console
+time="2026-04-29T02:24:59-05:00" level=info msg="{\"globalIndex\":419,\"timestamp\":\"2026-04-29T07:24:59.952Z\",\"status\":200,\"duration\":148.947}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":819,\"timestamp\":\"2026-04-29T07:25:00.002Z\",\"status\":200,\"duration\":94.44}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":19,\"timestamp\":\"2026-04-29T07:25:00.053Z\",\"status\":200,\"duration\":145.89}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":620,\"timestamp\":\"2026-04-29T07:25:00.053Z\",\"status\":200,\"duration\":145.926}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":121,\"timestamp\":\"2026-04-29T07:25:00.053Z\",\"status\":200,\"duration\":145.391}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":519,\"timestamp\":\"2026-04-29T07:25:00.063Z\",\"status\":200,\"duration\":311.747}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":222,\"timestamp\":\"2026-04-29T07:25:00.101Z\",\"status\":200,\"duration\":101.436}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":719,\"timestamp\":\"2026-04-29T07:25:00.118Z\",\"status\":200,\"duration\":139.08}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":320,\"timestamp\":\"2026-04-29T07:25:00.174Z\",\"status\":200,\"duration\":266.357}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":920,\"timestamp\":\"2026-04-29T07:25:00.191Z\",\"status\":200,\"duration\":270.241}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":420,\"timestamp\":\"2026-04-29T07:25:00.196Z\",\"status\":200,\"duration\":143.158}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":20,\"timestamp\":\"2026-04-29T07:25:00.327Z\",\"status\":200,\"duration\":173.213}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":223,\"timestamp\":\"2026-04-29T07:25:00.327Z\",\"status\":200,\"duration\":124.689}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":122,\"timestamp\":\"2026-04-29T07:25:00.327Z\",\"status\":200,\"duration\":173.269}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":820,\"timestamp\":\"2026-04-29T07:25:00.328Z\",\"status\":200,\"duration\":224.464}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":720,\"timestamp\":\"2026-04-29T07:25:00.357Z\",\"status\":200,\"duration\":137.65}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":621,\"timestamp\":\"2026-04-29T07:25:00.420Z\",\"status\":200,\"duration\":265.922}" source=console
+
+running (0m07.0s), 10/10 VUs, 209 complete and 0 interrupted iterations
+default   [  21% ] 10 VUs  07.0s/30s  0209/1000 shared iters
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":921,\"timestamp\":\"2026-04-29T07:25:00.427Z\",\"status\":200,\"duration\":134.248}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":520,\"timestamp\":\"2026-04-29T07:25:00.443Z\",\"status\":200,\"duration\":278.295}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":421,\"timestamp\":\"2026-04-29T07:25:00.471Z\",\"status\":200,\"duration\":174.348}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":123,\"timestamp\":\"2026-04-29T07:25:00.535Z\",\"status\":200,\"duration\":106.59}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":321,\"timestamp\":\"2026-04-29T07:25:00.553Z\",\"status\":200,\"duration\":278.177}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":224,\"timestamp\":\"2026-04-29T07:25:00.553Z\",\"status\":200,\"duration\":125.272}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":21,\"timestamp\":\"2026-04-29T07:25:00.574Z\",\"status\":200,\"duration\":145.824}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":821,\"timestamp\":\"2026-04-29T07:25:00.574Z\",\"status\":200,\"duration\":145.747}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":521,\"timestamp\":\"2026-04-29T07:25:00.636Z\",\"status\":200,\"duration\":92.054}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":622,\"timestamp\":\"2026-04-29T07:25:00.654Z\",\"status\":200,\"duration\":132.073}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":422,\"timestamp\":\"2026-04-29T07:25:00.668Z\",\"status\":200,\"duration\":95.267}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":721,\"timestamp\":\"2026-04-29T07:25:00.677Z\",\"status\":200,\"duration\":219.356}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":124,\"timestamp\":\"2026-04-29T07:25:00.853Z\",\"status\":200,\"duration\":216.388}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":922,\"timestamp\":\"2026-04-29T07:25:00.853Z\",\"status\":200,\"duration\":325.237}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":822,\"timestamp\":\"2026-04-29T07:25:00.853Z\",\"status\":200,\"duration\":178.13}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":22,\"timestamp\":\"2026-04-29T07:25:00.853Z\",\"status\":200,\"duration\":177.983}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":225,\"timestamp\":\"2026-04-29T07:25:00.853Z\",\"status\":200,\"duration\":198.785}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":322,\"timestamp\":\"2026-04-29T07:25:00.874Z\",\"status\":200,\"duration\":219.473}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":522,\"timestamp\":\"2026-04-29T07:25:00.889Z\",\"status\":200,\"duration\":151.118}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":623,\"timestamp\":\"2026-04-29T07:25:00.894Z\",\"status\":200,\"duration\":139.132}" source=console
+time="2026-04-29T02:25:00-05:00" level=info msg="{\"globalIndex\":722,\"timestamp\":\"2026-04-29T07:25:00.978Z\",\"status\":200,\"duration\":200.765}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":226,\"timestamp\":\"2026-04-29T07:25:01.098Z\",\"status\":200,\"duration\":143.731}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":23,\"timestamp\":\"2026-04-29T07:25:01.099Z\",\"status\":200,\"duration\":143.88}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":423,\"timestamp\":\"2026-04-29T07:25:01.116Z\",\"status\":200,\"duration\":347.142}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":823,\"timestamp\":\"2026-04-29T07:25:01.139Z\",\"status\":200,\"duration\":184.567}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":624,\"timestamp\":\"2026-04-29T07:25:01.139Z\",\"status\":200,\"duration\":144.501}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":523,\"timestamp\":\"2026-04-29T07:25:01.140Z\",\"status\":200,\"duration\":150.702}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":923,\"timestamp\":\"2026-04-29T07:25:01.182Z\",\"status\":200,\"duration\":227.761}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":125,\"timestamp\":\"2026-04-29T07:25:01.190Z\",\"status\":200,\"duration\":235.173}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":723,\"timestamp\":\"2026-04-29T07:25:01.228Z\",\"status\":200,\"duration\":146.716}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":323,\"timestamp\":\"2026-04-29T07:25:01.243Z\",\"status\":200,\"duration\":268.941}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":824,\"timestamp\":\"2026-04-29T07:25:01.375Z\",\"status\":200,\"duration\":134.498}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":24,\"timestamp\":\"2026-04-29T07:25:01.375Z\",\"status\":200,\"duration\":175.549}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":227,\"timestamp\":\"2026-04-29T07:25:01.375Z\",\"status\":200,\"duration\":175.512}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":424,\"timestamp\":\"2026-04-29T07:25:01.386Z\",\"status\":200,\"duration\":166.318}" source=console
+
+running (0m08.0s), 10/10 VUs, 246 complete and 0 interrupted iterations
+default   [  25% ] 10 VUs  08.0s/30s  0246/1000 shared iters
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":324,\"timestamp\":\"2026-04-29T07:25:01.478Z\",\"status\":200,\"duration\":132.905}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":524,\"timestamp\":\"2026-04-29T07:25:01.508Z\",\"status\":200,\"duration\":267.309}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":126,\"timestamp\":\"2026-04-29T07:25:01.508Z\",\"status\":200,\"duration\":216.749}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":625,\"timestamp\":\"2026-04-29T07:25:01.514Z\",\"status\":200,\"duration\":272.876}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":724,\"timestamp\":\"2026-04-29T07:25:01.519Z\",\"status\":200,\"duration\":190.645}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":924,\"timestamp\":\"2026-04-29T07:25:01.519Z\",\"status\":200,\"duration\":234.431}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":825,\"timestamp\":\"2026-04-29T07:25:01.585Z\",\"status\":200,\"duration\":108.813}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":25,\"timestamp\":\"2026-04-29T07:25:01.605Z\",\"status\":200,\"duration\":129.211}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":325,\"timestamp\":\"2026-04-29T07:25:01.673Z\",\"status\":200,\"duration\":94.54}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":228,\"timestamp\":\"2026-04-29T07:25:01.701Z\",\"status\":200,\"duration\":224.611}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":425,\"timestamp\":\"2026-04-29T07:25:01.716Z\",\"status\":200,\"duration\":228.625}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":626,\"timestamp\":\"2026-04-29T07:25:01.731Z\",\"status\":200,\"duration\":116.621}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":925,\"timestamp\":\"2026-04-29T07:25:01.753Z\",\"status\":200,\"duration\":132.479}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":725,\"timestamp\":\"2026-04-29T07:25:01.761Z\",\"status\":200,\"duration\":140.733}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":525,\"timestamp\":\"2026-04-29T07:25:01.901Z\",\"status\":200,\"duration\":292.344}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":127,\"timestamp\":\"2026-04-29T07:25:01.902Z\",\"status\":200,\"duration\":292.607}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":826,\"timestamp\":\"2026-04-29T07:25:01.902Z\",\"status\":200,\"duration\":215.5}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":229,\"timestamp\":\"2026-04-29T07:25:01.947Z\",\"status\":200,\"duration\":144.868}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":26,\"timestamp\":\"2026-04-29T07:25:01.973Z\",\"status\":200,\"duration\":267.13}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":926,\"timestamp\":\"2026-04-29T07:25:01.988Z\",\"status\":200,\"duration\":133.267}" source=console
+time="2026-04-29T02:25:01-05:00" level=info msg="{\"globalIndex\":726,\"timestamp\":\"2026-04-29T07:25:01.996Z\",\"status\":200,\"duration\":134.181}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":627,\"timestamp\":\"2026-04-29T07:25:02.006Z\",\"status\":200,\"duration\":174.209}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":426,\"timestamp\":\"2026-04-29T07:25:02.006Z\",\"status\":200,\"duration\":188.373}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":326,\"timestamp\":\"2026-04-29T07:25:02.059Z\",\"status\":200,\"duration\":284.002}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":128,\"timestamp\":\"2026-04-29T07:25:02.142Z\",\"status\":200,\"duration\":138.451}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":827,\"timestamp\":\"2026-04-29T07:25:02.149Z\",\"status\":200,\"duration\":145.815}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":927,\"timestamp\":\"2026-04-29T07:25:02.185Z\",\"status\":200,\"duration\":95.211}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":230,\"timestamp\":\"2026-04-29T07:25:02.192Z\",\"status\":200,\"duration\":143.535}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":526,\"timestamp\":\"2026-04-29T07:25:02.225Z\",\"status\":200,\"duration\":221.395}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":427,\"timestamp\":\"2026-04-29T07:25:02.300Z\",\"status\":200,\"duration\":193.479}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":27,\"timestamp\":\"2026-04-29T07:25:02.311Z\",\"status\":200,\"duration\":235.781}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":727,\"timestamp\":\"2026-04-29T07:25:02.323Z\",\"status\":200,\"duration\":225.286}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":327,\"timestamp\":\"2026-04-29T07:25:02.424Z\",\"status\":200,\"duration\":264.278}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":928,\"timestamp\":\"2026-04-29T07:25:02.424Z\",\"status\":200,\"duration\":137.699}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":628,\"timestamp\":\"2026-04-29T07:25:02.424Z\",\"status\":200,\"duration\":317.822}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":828,\"timestamp\":\"2026-04-29T07:25:02.424Z\",\"status\":200,\"duration\":174.101}" source=console
+
+running (0m09.0s), 10/10 VUs, 282 complete and 0 interrupted iterations
+default   [  28% ] 10 VUs  09.0s/30s  0282/1000 shared iters
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":231,\"timestamp\":\"2026-04-29T07:25:02.426Z\",\"status\":200,\"duration\":132.424}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":527,\"timestamp\":\"2026-04-29T07:25:02.453Z\",\"status\":200,\"duration\":127.403}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":428,\"timestamp\":\"2026-04-29T07:25:02.512Z\",\"status\":200,\"duration\":109.581}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":129,\"timestamp\":\"2026-04-29T07:25:02.512Z\",\"status\":200,\"duration\":268.479}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":28,\"timestamp\":\"2026-04-29T07:25:02.593Z\",\"status\":200,\"duration\":180.488}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":232,\"timestamp\":\"2026-04-29T07:25:02.634Z\",\"status\":200,\"duration\":106.592}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":929,\"timestamp\":\"2026-04-29T07:25:02.664Z\",\"status\":200,\"duration\":139.583}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":528,\"timestamp\":\"2026-04-29T07:25:02.694Z\",\"status\":200,\"duration\":138.969}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":728,\"timestamp\":\"2026-04-29T07:25:02.704Z\",\"status\":200,\"duration\":278.951}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":829,\"timestamp\":\"2026-04-29T07:25:02.751Z\",\"status\":200,\"duration\":225.643}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":629,\"timestamp\":\"2026-04-29T07:25:02.751Z\",\"status\":200,\"duration\":225.808}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":328,\"timestamp\":\"2026-04-29T07:25:02.792Z\",\"status\":200,\"duration\":266.989}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":29,\"timestamp\":\"2026-04-29T07:25:02.797Z\",\"status\":200,\"duration\":102.894}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":130,\"timestamp\":\"2026-04-29T07:25:02.844Z\",\"status\":200,\"duration\":230.515}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":930,\"timestamp\":\"2026-04-29T07:25:02.854Z\",\"status\":200,\"duration\":88.024}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":429,\"timestamp\":\"2026-04-29T07:25:02.948Z\",\"status\":200,\"duration\":335.262}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":233,\"timestamp\":\"2026-04-29T07:25:02.950Z\",\"status\":200,\"duration\":214.527}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":529,\"timestamp\":\"2026-04-29T07:25:02.951Z\",\"status\":200,\"duration\":153.653}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":830,\"timestamp\":\"2026-04-29T07:25:02.994Z\",\"status\":200,\"duration\":140.204}" source=console
+time="2026-04-29T02:25:02-05:00" level=info msg="{\"globalIndex\":630,\"timestamp\":\"2026-04-29T07:25:02.994Z\",\"status\":200,\"duration\":140.75}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":931,\"timestamp\":\"2026-04-29T07:25:03.055Z\",\"status\":200,\"duration\":100.047}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":131,\"timestamp\":\"2026-04-29T07:25:03.086Z\",\"status\":200,\"duration\":140.864}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":729,\"timestamp\":\"2026-04-29T07:25:03.126Z\",\"status\":200,\"duration\":321.28}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":30,\"timestamp\":\"2026-04-29T07:25:03.136Z\",\"status\":200,\"duration\":238.411}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":329,\"timestamp\":\"2026-04-29T07:25:03.167Z\",\"status\":200,\"duration\":274.327}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":430,\"timestamp\":\"2026-04-29T07:25:03.198Z\",\"status\":200,\"duration\":144.385}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":530,\"timestamp\":\"2026-04-29T07:25:03.203Z\",\"status\":200,\"duration\":149.977}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":631,\"timestamp\":\"2026-04-29T07:25:03.238Z\",\"status\":200,\"duration\":142.27}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":932,\"timestamp\":\"2026-04-29T07:25:03.296Z\",\"status\":200,\"duration\":139.596}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":234,\"timestamp\":\"2026-04-29T07:25:03.321Z\",\"status\":200,\"duration\":267.149}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":132,\"timestamp\":\"2026-04-29T07:25:03.336Z\",\"status\":200,\"duration\":148.125}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":831,\"timestamp\":\"2026-04-29T07:25:03.362Z\",\"status\":200,\"duration\":266.107}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":730,\"timestamp\":\"2026-04-29T07:25:03.374Z\",\"status\":200,\"duration\":146.007}" source=console
+
+running (0m10.0s), 10/10 VUs, 316 complete and 0 interrupted iterations
+default   [  32% ] 10 VUs  10.0s/30s  0316/1000 shared iters
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":531,\"timestamp\":\"2026-04-29T07:25:03.473Z\",\"status\":200,\"duration\":168.566}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":31,\"timestamp\":\"2026-04-29T07:25:03.473Z\",\"status\":200,\"duration\":235.238}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":330,\"timestamp\":\"2026-04-29T07:25:03.473Z\",\"status\":200,\"duration\":204.264}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":431,\"timestamp\":\"2026-04-29T07:25:03.473Z\",\"status\":200,\"duration\":174.088}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":731,\"timestamp\":\"2026-04-29T07:25:03.562Z\",\"status\":200,\"duration\":87.996}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":133,\"timestamp\":\"2026-04-29T07:25:03.593Z\",\"status\":200,\"duration\":155.557}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":933,\"timestamp\":\"2026-04-29T07:25:03.606Z\",\"status\":200,\"duration\":207.559}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":235,\"timestamp\":\"2026-04-29T07:25:03.606Z\",\"status\":200,\"duration\":183.18}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":632,\"timestamp\":\"2026-04-29T07:25:03.615Z\",\"status\":200,\"duration\":273.566}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":32,\"timestamp\":\"2026-04-29T07:25:03.674Z\",\"status\":200,\"duration\":98.21}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":832,\"timestamp\":\"2026-04-29T07:25:03.702Z\",\"status\":200,\"duration\":238.204}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":432,\"timestamp\":\"2026-04-29T07:25:03.719Z\",\"status\":200,\"duration\":144.44}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":331,\"timestamp\":\"2026-04-29T07:25:03.725Z\",\"status\":200,\"duration\":150.05}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":532,\"timestamp\":\"2026-04-29T07:25:03.811Z\",\"status\":200,\"duration\":235.731}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":134,\"timestamp\":\"2026-04-29T07:25:03.826Z\",\"status\":200,\"duration\":131.752}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":33,\"timestamp\":\"2026-04-29T07:25:03.871Z\",\"status\":200,\"duration\":95.255}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":732,\"timestamp\":\"2026-04-29T07:25:03.896Z\",\"status\":200,\"duration\":232.155}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":833,\"timestamp\":\"2026-04-29T07:25:03.905Z\",\"status\":200,\"duration\":101.283}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":433,\"timestamp\":\"2026-04-29T07:25:03.998Z\",\"status\":200,\"duration\":177.852}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":633,\"timestamp\":\"2026-04-29T07:25:03.998Z\",\"status\":200,\"duration\":281.339}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":236,\"timestamp\":\"2026-04-29T07:25:03.998Z\",\"status\":200,\"duration\":291.526}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":332,\"timestamp\":\"2026-04-29T07:25:03.998Z\",\"status\":200,\"duration\":172.816}" source=console
+time="2026-04-29T02:25:03-05:00" level=info msg="{\"globalIndex\":934,\"timestamp\":\"2026-04-29T07:25:03.998Z\",\"status\":200,\"duration\":291.771}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":34,\"timestamp\":\"2026-04-29T07:25:04.095Z\",\"status\":200,\"duration\":122.826}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":135,\"timestamp\":\"2026-04-29T07:25:04.131Z\",\"status\":200,\"duration\":204.363}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":634,\"timestamp\":\"2026-04-29T07:25:04.197Z\",\"status\":200,\"duration\":96.992}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":237,\"timestamp\":\"2026-04-29T07:25:04.207Z\",\"status\":200,\"duration\":107.172}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":533,\"timestamp\":\"2026-04-29T07:25:04.223Z\",\"status\":200,\"duration\":311.227}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":733,\"timestamp\":\"2026-04-29T07:25:04.234Z\",\"status\":200,\"duration\":236.061}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":935,\"timestamp\":\"2026-04-29T07:25:04.240Z\",\"status\":200,\"duration\":140.862}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":333,\"timestamp\":\"2026-04-29T07:25:04.255Z\",\"status\":200,\"duration\":156.236}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":834,\"timestamp\":\"2026-04-29T07:25:04.269Z\",\"status\":200,\"duration\":262.932}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":434,\"timestamp\":\"2026-04-29T07:25:04.332Z\",\"status\":200,\"duration\":232.962}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":136,\"timestamp\":\"2026-04-29T07:25:04.369Z\",\"status\":200,\"duration\":137.204}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":35,\"timestamp\":\"2026-04-29T07:25:04.389Z\",\"status\":200,\"duration\":192.869}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":238,\"timestamp\":\"2026-04-29T07:25:04.407Z\",\"status\":200,\"duration\":98.116}" source=console
+
+running (0m11.0s), 10/10 VUs, 351 complete and 0 interrupted iterations
+default   [  35% ] 10 VUs  11.0s/30s  0351/1000 shared iters
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":835,\"timestamp\":\"2026-04-29T07:25:04.522Z\",\"status\":200,\"duration\":152.546}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":734,\"timestamp\":\"2026-04-29T07:25:04.522Z\",\"status\":200,\"duration\":187.494}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":534,\"timestamp\":\"2026-04-29T07:25:04.522Z\",\"status\":200,\"duration\":198.141}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":635,\"timestamp\":\"2026-04-29T07:25:04.522Z\",\"status\":200,\"duration\":224.107}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":936,\"timestamp\":\"2026-04-29T07:25:04.522Z\",\"status\":200,\"duration\":181.201}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":334,\"timestamp\":\"2026-04-29T07:25:04.522Z\",\"status\":200,\"duration\":165.855}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":239,\"timestamp\":\"2026-04-29T07:25:04.613Z\",\"status\":200,\"duration\":104.201}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":435,\"timestamp\":\"2026-04-29T07:25:04.664Z\",\"status\":200,\"duration\":230.107}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":836,\"timestamp\":\"2026-04-29T07:25:04.718Z\",\"status\":200,\"duration\":93.988}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":137,\"timestamp\":\"2026-04-29T07:25:04.738Z\",\"status\":200,\"duration\":267.555}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":36,\"timestamp\":\"2026-04-29T07:25:04.747Z\",\"status\":200,\"duration\":254.956}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":335,\"timestamp\":\"2026-04-29T07:25:04.753Z\",\"status\":200,\"duration\":128.395}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":937,\"timestamp\":\"2026-04-29T07:25:04.768Z\",\"status\":200,\"duration\":144.17}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":240,\"timestamp\":\"2026-04-29T07:25:04.823Z\",\"status\":200,\"duration\":103.582}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":636,\"timestamp\":\"2026-04-29T07:25:04.845Z\",\"status\":200,\"duration\":221.238}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":535,\"timestamp\":\"2026-04-29T07:25:04.859Z\",\"status\":200,\"duration\":235.419}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":436,\"timestamp\":\"2026-04-29T07:25:04.868Z\",\"status\":200,\"duration\":102.673}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":735,\"timestamp\":\"2026-04-29T07:25:04.889Z\",\"status\":200,\"duration\":264.688}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":837,\"timestamp\":\"2026-04-29T07:25:04.932Z\",\"status\":200,\"duration\":112.556}" source=console
+time="2026-04-29T02:25:04-05:00" level=info msg="{\"globalIndex\":138,\"timestamp\":\"2026-04-29T07:25:04.932Z\",\"status\":200,\"duration\":93.019}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":938,\"timestamp\":\"2026-04-29T07:25:05.047Z\",\"status\":200,\"duration\":178.178}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":241,\"timestamp\":\"2026-04-29T07:25:05.066Z\",\"status\":200,\"duration\":141.902}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":37,\"timestamp\":\"2026-04-29T07:25:05.080Z\",\"status\":200,\"duration\":229.081}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":637,\"timestamp\":\"2026-04-29T07:25:05.087Z\",\"status\":200,\"duration\":137.271}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":336,\"timestamp\":\"2026-04-29T07:25:05.119Z\",\"status\":200,\"duration\":265.954}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":536,\"timestamp\":\"2026-04-29T07:25:05.134Z\",\"status\":200,\"duration\":172.424}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":838,\"timestamp\":\"2026-04-29T07:25:05.144Z\",\"status\":200,\"duration\":110.376}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":437,\"timestamp\":\"2026-04-29T07:25:05.195Z\",\"status\":200,\"duration\":225.7}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":939,\"timestamp\":\"2026-04-29T07:25:05.285Z\",\"status\":200,\"duration\":132.064}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":38,\"timestamp\":\"2026-04-29T07:25:05.289Z\",\"status\":200,\"duration\":108.575}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":242,\"timestamp\":\"2026-04-29T07:25:05.306Z\",\"status\":200,\"duration\":138.533}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":736,\"timestamp\":\"2026-04-29T07:25:05.317Z\",\"status\":200,\"duration\":326.081}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":139,\"timestamp\":\"2026-04-29T07:25:05.317Z\",\"status\":200,\"duration\":282.669}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":337,\"timestamp\":\"2026-04-29T07:25:05.398Z\",\"status\":200,\"duration\":177.549}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":638,\"timestamp\":\"2026-04-29T07:25:05.403Z\",\"status\":200,\"duration\":214.668}" source=console
+
+running (0m12.0s), 10/10 VUs, 388 complete and 0 interrupted iterations
+default   [  39% ] 10 VUs  12.0s/30s  0388/1000 shared iters
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":839,\"timestamp\":\"2026-04-29T07:25:05.476Z\",\"status\":200,\"duration\":230.669}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":438,\"timestamp\":\"2026-04-29T07:25:05.571Z\",\"status\":200,\"duration\":275.257}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":737,\"timestamp\":\"2026-04-29T07:25:05.571Z\",\"status\":200,\"duration\":153.503}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":537,\"timestamp\":\"2026-04-29T07:25:05.571Z\",\"status\":200,\"duration\":336.926}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":39,\"timestamp\":\"2026-04-29T07:25:05.571Z\",\"status\":200,\"duration\":180.262}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":140,\"timestamp\":\"2026-04-29T07:25:05.571Z\",\"status\":200,\"duration\":153.333}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":243,\"timestamp\":\"2026-04-29T07:25:05.572Z\",\"status\":200,\"duration\":165.206}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":940,\"timestamp\":\"2026-04-29T07:25:05.652Z\",\"status\":200,\"duration\":266.094}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":639,\"timestamp\":\"2026-04-29T07:25:05.671Z\",\"status\":200,\"duration\":167.315}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":338,\"timestamp\":\"2026-04-29T07:25:05.708Z\",\"status\":200,\"duration\":208.406}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":439,\"timestamp\":\"2026-04-29T07:25:05.771Z\",\"status\":200,\"duration\":99.394}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":40,\"timestamp\":\"2026-04-29T07:25:05.799Z\",\"status\":200,\"duration\":126.581}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":840,\"timestamp\":\"2026-04-29T07:25:05.799Z\",\"status\":200,\"duration\":221.284}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":244,\"timestamp\":\"2026-04-29T07:25:05.808Z\",\"status\":200,\"duration\":135.733}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":738,\"timestamp\":\"2026-04-29T07:25:05.819Z\",\"status\":200,\"duration\":146.719}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":941,\"timestamp\":\"2026-04-29T07:25:05.865Z\",\"status\":200,\"duration\":110.74}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":141,\"timestamp\":\"2026-04-29T07:25:05.901Z\",\"status\":200,\"duration\":228.833}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":640,\"timestamp\":\"2026-04-29T07:25:05.916Z\",\"status\":200,\"duration\":144.308}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":538,\"timestamp\":\"2026-04-29T07:25:05.937Z\",\"status\":200,\"duration\":265.387}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":339,\"timestamp\":\"2026-04-29T07:25:05.946Z\",\"status\":200,\"duration\":136.788}" source=console
+time="2026-04-29T02:25:05-05:00" level=info msg="{\"globalIndex\":440,\"timestamp\":\"2026-04-29T07:25:05.965Z\",\"status\":200,\"duration\":91.937}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":41,\"timestamp\":\"2026-04-29T07:25:06.095Z\",\"status\":200,\"duration\":194.268}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":841,\"timestamp\":\"2026-04-29T07:25:06.095Z\",\"status\":200,\"duration\":194.251}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":942,\"timestamp\":\"2026-04-29T07:25:06.095Z\",\"status\":200,\"duration\":129.185}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":245,\"timestamp\":\"2026-04-29T07:25:06.124Z\",\"status\":200,\"duration\":214.223}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":739,\"timestamp\":\"2026-04-29T07:25:06.149Z\",\"status\":200,\"duration\":230.268}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":340,\"timestamp\":\"2026-04-29T07:25:06.193Z\",\"status\":200,\"duration\":145.189}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":441,\"timestamp\":\"2026-04-29T07:25:06.193Z\",\"status\":200,\"duration\":126.783}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":142,\"timestamp\":\"2026-04-29T07:25:06.194Z\",\"status\":200,\"duration\":191.976}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":943,\"timestamp\":\"2026-04-29T07:25:06.298Z\",\"status\":200,\"duration\":101.994}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":539,\"timestamp\":\"2026-04-29T07:25:06.311Z\",\"status\":200,\"duration\":271.207}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":842,\"timestamp\":\"2026-04-29T07:25:06.325Z\",\"status\":200,\"duration\":129.567}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":641,\"timestamp\":\"2026-04-29T07:25:06.325Z\",\"status\":200,\"duration\":307.549}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":246,\"timestamp\":\"2026-04-29T07:25:06.369Z\",\"status\":200,\"duration\":144.241}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":341,\"timestamp\":\"2026-04-29T07:25:06.395Z\",\"status\":200,\"duration\":100.315}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":143,\"timestamp\":\"2026-04-29T07:25:06.399Z\",\"status\":200,\"duration\":104.46}" source=console
+
+running (0m13.0s), 10/10 VUs, 421 complete and 0 interrupted iterations
+default   [  42% ] 10 VUs  13.0s/30s  0421/1000 shared iters
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":740,\"timestamp\":\"2026-04-29T07:25:06.508Z\",\"status\":200,\"duration\":255.831}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":42,\"timestamp\":\"2026-04-29T07:25:06.517Z\",\"status\":200,\"duration\":321.517}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":342,\"timestamp\":\"2026-04-29T07:25:06.618Z\",\"status\":200,\"duration\":122.165}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":843,\"timestamp\":\"2026-04-29T07:25:06.619Z\",\"status\":200,\"duration\":192.924}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":944,\"timestamp\":\"2026-04-29T07:25:06.619Z\",\"status\":200,\"duration\":219.316}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":144,\"timestamp\":\"2026-04-29T07:25:06.619Z\",\"status\":200,\"duration\":118.134}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":442,\"timestamp\":\"2026-04-29T07:25:06.619Z\",\"status\":200,\"duration\":323.879}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":540,\"timestamp\":\"2026-04-29T07:25:06.649Z\",\"status\":200,\"duration\":237.66}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":642,\"timestamp\":\"2026-04-29T07:25:06.694Z\",\"status\":200,\"duration\":267.889}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":247,\"timestamp\":\"2026-04-29T07:25:06.698Z\",\"status\":200,\"duration\":227.599}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":43,\"timestamp\":\"2026-04-29T07:25:06.720Z\",\"status\":200,\"duration\":102.006}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":343,\"timestamp\":\"2026-04-29T07:25:06.824Z\",\"status\":200,\"duration\":103.922}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":145,\"timestamp\":\"2026-04-29T07:25:06.824Z\",\"status\":200,\"duration\":104.502}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":741,\"timestamp\":\"2026-04-29T07:25:06.850Z\",\"status\":200,\"duration\":239.831}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":248,\"timestamp\":\"2026-04-29T07:25:06.890Z\",\"status\":200,\"duration\":90.531}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":643,\"timestamp\":\"2026-04-29T07:25:06.901Z\",\"status\":200,\"duration\":105.494}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":945,\"timestamp\":\"2026-04-29T07:25:06.949Z\",\"status\":200,\"duration\":229.373}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":44,\"timestamp\":\"2026-04-29T07:25:06.953Z\",\"status\":200,\"duration\":131.253}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":443,\"timestamp\":\"2026-04-29T07:25:06.976Z\",\"status\":200,\"duration\":256.185}" source=console
+time="2026-04-29T02:25:06-05:00" level=info msg="{\"globalIndex\":844,\"timestamp\":\"2026-04-29T07:25:06.993Z\",\"status\":200,\"duration\":271.999}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":344,\"timestamp\":\"2026-04-29T07:25:07.030Z\",\"status\":200,\"duration\":105.351}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":541,\"timestamp\":\"2026-04-29T07:25:07.030Z\",\"status\":200,\"duration\":279.286}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":742,\"timestamp\":\"2026-04-29T07:25:07.143Z\",\"status\":200,\"duration\":192.056}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":146,\"timestamp\":\"2026-04-29T07:25:07.143Z\",\"status\":200,\"duration\":217.725}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":249,\"timestamp\":\"2026-04-29T07:25:07.223Z\",\"status\":200,\"duration\":230.791}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":644,\"timestamp\":\"2026-04-29T07:25:07.238Z\",\"status\":200,\"duration\":235.426}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":45,\"timestamp\":\"2026-04-29T07:25:07.241Z\",\"status\":200,\"duration\":187.731}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":444,\"timestamp\":\"2026-04-29T07:25:07.241Z\",\"status\":200,\"duration\":163.807}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":345,\"timestamp\":\"2026-04-29T07:25:07.241Z\",\"status\":200,\"duration\":109.42}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":946,\"timestamp\":\"2026-04-29T07:25:07.241Z\",\"status\":200,\"duration\":190.198}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":743,\"timestamp\":\"2026-04-29T07:25:07.337Z\",\"status\":200,\"duration\":92.836}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":542,\"timestamp\":\"2026-04-29T07:25:07.356Z\",\"status\":200,\"duration\":224.259}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":845,\"timestamp\":\"2026-04-29T07:25:07.402Z\",\"status\":200,\"duration\":307.906}" source=console
+
+running (0m14.0s), 10/10 VUs, 456 complete and 0 interrupted iterations
+default   [  46% ] 10 VUs  14.0s/30s  0456/1000 shared iters
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":947,\"timestamp\":\"2026-04-29T07:25:07.449Z\",\"status\":200,\"duration\":106.917}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":645,\"timestamp\":\"2026-04-29T07:25:07.448Z\",\"status\":200,\"duration\":108.712}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":346,\"timestamp\":\"2026-04-29T07:25:07.449Z\",\"status\":200,\"duration\":107.03}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":147,\"timestamp\":\"2026-04-29T07:25:07.503Z\",\"status\":200,\"duration\":258.798}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":445,\"timestamp\":\"2026-04-29T07:25:07.534Z\",\"status\":200,\"duration\":192.42}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":744,\"timestamp\":\"2026-04-29T07:25:07.547Z\",\"status\":200,\"duration\":107.497}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":543,\"timestamp\":\"2026-04-29T07:25:07.552Z\",\"status\":200,\"duration\":95.094}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":250,\"timestamp\":\"2026-04-29T07:25:07.565Z\",\"status\":200,\"duration\":239.704}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":46,\"timestamp\":\"2026-04-29T07:25:07.668Z\",\"status\":200,\"duration\":325.951}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":948,\"timestamp\":\"2026-04-29T07:25:07.668Z\",\"status\":200,\"duration\":117.247}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":148,\"timestamp\":\"2026-04-29T07:25:07.753Z\",\"status\":200,\"duration\":148.977}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":446,\"timestamp\":\"2026-04-29T07:25:07.766Z\",\"status\":200,\"duration\":129.919}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":544,\"timestamp\":\"2026-04-29T07:25:07.766Z\",\"status\":200,\"duration\":112.421}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":347,\"timestamp\":\"2026-04-29T07:25:07.783Z\",\"status\":200,\"duration\":232.505}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":846,\"timestamp\":\"2026-04-29T07:25:07.799Z\",\"status\":200,\"duration\":296.116}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":745,\"timestamp\":\"2026-04-29T07:25:07.799Z\",\"status\":200,\"duration\":151.519}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":251,\"timestamp\":\"2026-04-29T07:25:07.812Z\",\"status\":200,\"duration\":146.227}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":646,\"timestamp\":\"2026-04-29T07:25:07.816Z\",\"status\":200,\"duration\":266.09}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":47,\"timestamp\":\"2026-04-29T07:25:07.860Z\",\"status\":200,\"duration\":91.803}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":949,\"timestamp\":\"2026-04-29T07:25:07.873Z\",\"status\":200,\"duration\":104.43}" source=console
+time="2026-04-29T02:25:07-05:00" level=info msg="{\"globalIndex\":447,\"timestamp\":\"2026-04-29T07:25:07.958Z\",\"status\":200,\"duration\":91.436}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":847,\"timestamp\":\"2026-04-29T07:25:08.019Z\",\"status\":200,\"duration\":119.25}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":545,\"timestamp\":\"2026-04-29T07:25:08.019Z\",\"status\":200,\"duration\":152.377}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":149,\"timestamp\":\"2026-04-29T07:25:08.019Z\",\"status\":200,\"duration\":165.457}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":746,\"timestamp\":\"2026-04-29T07:25:08.049Z\",\"status\":200,\"duration\":149.29}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":252,\"timestamp\":\"2026-04-29T07:25:08.054Z\",\"status\":200,\"duration\":139.611}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":48,\"timestamp\":\"2026-04-29T07:25:08.065Z\",\"status\":200,\"duration\":103.863}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":950,\"timestamp\":\"2026-04-29T07:25:08.192Z\",\"status\":200,\"duration\":218.363}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":348,\"timestamp\":\"2026-04-29T07:25:08.192Z\",\"status\":200,\"duration\":307.641}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":647,\"timestamp\":\"2026-04-29T07:25:08.210Z\",\"status\":200,\"duration\":292.861}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":49,\"timestamp\":\"2026-04-29T07:25:08.277Z\",\"status\":200,\"duration\":110.693}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":253,\"timestamp\":\"2026-04-29T07:25:08.288Z\",\"status\":200,\"duration\":133.349}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":546,\"timestamp\":\"2026-04-29T07:25:08.298Z\",\"status\":200,\"duration\":176.826}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":150,\"timestamp\":\"2026-04-29T07:25:08.298Z\",\"status\":200,\"duration\":176.814}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":448,\"timestamp\":\"2026-04-29T07:25:08.298Z\",\"status\":200,\"duration\":237.105}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":848,\"timestamp\":\"2026-04-29T07:25:08.327Z\",\"status\":200,\"duration\":206.07}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":747,\"timestamp\":\"2026-04-29T07:25:08.422Z\",\"status\":200,\"duration\":269.941}" source=console
+
+running (0m15.0s), 10/10 VUs, 494 complete and 0 interrupted iterations
+default   [  49% ] 10 VUs  15.0s/30s  0494/1000 shared iters
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":151,\"timestamp\":\"2026-04-29T07:25:08.494Z\",\"status\":200,\"duration\":95.497}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":547,\"timestamp\":\"2026-04-29T07:25:08.507Z\",\"status\":200,\"duration\":107.671}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":50,\"timestamp\":\"2026-04-29T07:25:08.507Z\",\"status\":200,\"duration\":128.846}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":951,\"timestamp\":\"2026-04-29T07:25:08.523Z\",\"status\":200,\"duration\":230.601}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":349,\"timestamp\":\"2026-04-29T07:25:08.527Z\",\"status\":200,\"duration\":234.106}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":849,\"timestamp\":\"2026-04-29T07:25:08.531Z\",\"status\":200,\"duration\":102.596}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":449,\"timestamp\":\"2026-04-29T07:25:08.544Z\",\"status\":200,\"duration\":144.871}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":648,\"timestamp\":\"2026-04-29T07:25:08.544Z\",\"status\":200,\"duration\":233.586}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":254,\"timestamp\":\"2026-04-29T07:25:08.622Z\",\"status\":200,\"duration\":232.05}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":152,\"timestamp\":\"2026-04-29T07:25:08.743Z\",\"status\":200,\"duration\":146.24}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":51,\"timestamp\":\"2026-04-29T07:25:08.754Z\",\"status\":200,\"duration\":146.114}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":748,\"timestamp\":\"2026-04-29T07:25:08.760Z\",\"status\":200,\"duration\":237.004}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":649,\"timestamp\":\"2026-04-29T07:25:08.811Z\",\"status\":200,\"duration\":165.952}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":450,\"timestamp\":\"2026-04-29T07:25:08.821Z\",\"status\":200,\"duration\":176.011}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":850,\"timestamp\":\"2026-04-29T07:25:08.821Z\",\"status\":200,\"duration\":189.128}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":255,\"timestamp\":\"2026-04-29T07:25:08.827Z\",\"status\":200,\"duration\":103.507}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":548,\"timestamp\":\"2026-04-29T07:25:08.880Z\",\"status\":200,\"duration\":271.745}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":350,\"timestamp\":\"2026-04-29T07:25:08.933Z\",\"status\":200,\"duration\":305.622}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":153,\"timestamp\":\"2026-04-29T07:25:08.989Z\",\"status\":200,\"duration\":145.214}" source=console
+time="2026-04-29T02:25:08-05:00" level=info msg="{\"globalIndex\":952,\"timestamp\":\"2026-04-29T07:25:08.989Z\",\"status\":200,\"duration\":365.312}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":749,\"timestamp\":\"2026-04-29T07:25:09.005Z\",\"status\":200,\"duration\":143.387}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":52,\"timestamp\":\"2026-04-29T07:25:09.024Z\",\"status\":200,\"duration\":168.405}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":256,\"timestamp\":\"2026-04-29T07:25:09.032Z\",\"status\":200,\"duration\":103.274}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":451,\"timestamp\":\"2026-04-29T07:25:09.054Z\",\"status\":200,\"duration\":131.264}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":851,\"timestamp\":\"2026-04-29T07:25:09.084Z\",\"status\":200,\"duration\":161.803}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":549,\"timestamp\":\"2026-04-29T07:25:09.241Z\",\"status\":200,\"duration\":259.572}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":154,\"timestamp\":\"2026-04-29T07:25:09.241Z\",\"status\":200,\"duration\":150.873}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":650,\"timestamp\":\"2026-04-29T07:25:09.241Z\",\"status\":200,\"duration\":328.728}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":257,\"timestamp\":\"2026-04-29T07:25:09.241Z\",\"status\":200,\"duration\":108.377}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":953,\"timestamp\":\"2026-04-29T07:25:09.241Z\",\"status\":200,\"duration\":151.011}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":351,\"timestamp\":\"2026-04-29T07:25:09.241Z\",\"status\":200,\"duration\":207.109}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":750,\"timestamp\":\"2026-04-29T07:25:09.292Z\",\"status\":200,\"duration\":186.318}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":53,\"timestamp\":\"2026-04-29T07:25:09.344Z\",\"status\":200,\"duration\":219.549}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":852,\"timestamp\":\"2026-04-29T07:25:09.367Z\",\"status\":200,\"duration\":181.701}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":452,\"timestamp\":\"2026-04-29T07:25:09.372Z\",\"status\":200,\"duration\":217.224}" source=console
+
+running (0m16.0s), 10/10 VUs, 528 complete and 0 interrupted iterations
+default   [  53% ] 10 VUs  16.0s/30s  0528/1000 shared iters
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":155,\"timestamp\":\"2026-04-29T07:25:09.444Z\",\"status\":200,\"duration\":101.3}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":954,\"timestamp\":\"2026-04-29T07:25:09.444Z\",\"status\":200,\"duration\":101.44}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":258,\"timestamp\":\"2026-04-29T07:25:09.476Z\",\"status\":200,\"duration\":133.334}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":651,\"timestamp\":\"2026-04-29T07:25:09.476Z\",\"status\":200,\"duration\":133.373}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":352,\"timestamp\":\"2026-04-29T07:25:09.484Z\",\"status\":200,\"duration\":141.721}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":550,\"timestamp\":\"2026-04-29T07:25:09.484Z\",\"status\":200,\"duration\":141.767}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":453,\"timestamp\":\"2026-04-29T07:25:09.573Z\",\"status\":200,\"duration\":99.558}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":54,\"timestamp\":\"2026-04-29T07:25:09.588Z\",\"status\":200,\"duration\":143.063}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":156,\"timestamp\":\"2026-04-29T07:25:09.651Z\",\"status\":200,\"duration\":105.314}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":751,\"timestamp\":\"2026-04-29T07:25:09.656Z\",\"status\":200,\"duration\":262.169}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":652,\"timestamp\":\"2026-04-29T07:25:09.765Z\",\"status\":200,\"duration\":188.807}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":259,\"timestamp\":\"2026-04-29T07:25:09.766Z\",\"status\":200,\"duration\":188.807}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":955,\"timestamp\":\"2026-04-29T07:25:09.765Z\",\"status\":200,\"duration\":219.715}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":353,\"timestamp\":\"2026-04-29T07:25:09.765Z\",\"status\":200,\"duration\":179.813}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":853,\"timestamp\":\"2026-04-29T07:25:09.766Z\",\"status\":200,\"duration\":296.927}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":551,\"timestamp\":\"2026-04-29T07:25:09.851Z\",\"status\":200,\"duration\":265.53}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":55,\"timestamp\":\"2026-04-29T07:25:09.895Z\",\"status\":200,\"duration\":206.368}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":956,\"timestamp\":\"2026-04-29T07:25:09.958Z\",\"status\":200,\"duration\":91.248}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":752,\"timestamp\":\"2026-04-29T07:25:09.977Z\",\"status\":200,\"duration\":220.239}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":354,\"timestamp\":\"2026-04-29T07:25:09.977Z\",\"status\":200,\"duration\":110.327}" source=console
+time="2026-04-29T02:25:09-05:00" level=info msg="{\"globalIndex\":454,\"timestamp\":\"2026-04-29T07:25:09.979Z\",\"status\":200,\"duration\":303.717}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":854,\"timestamp\":\"2026-04-29T07:25:10.005Z\",\"status\":200,\"duration\":139.081}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":260,\"timestamp\":\"2026-04-29T07:25:10.015Z\",\"status\":200,\"duration\":148.818}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":157,\"timestamp\":\"2026-04-29T07:25:10.026Z\",\"status\":200,\"duration\":270.146}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":653,\"timestamp\":\"2026-04-29T07:25:10.099Z\",\"status\":200,\"duration\":232.669}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":56,\"timestamp\":\"2026-04-29T07:25:10.147Z\",\"status\":200,\"duration\":149.915}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":552,\"timestamp\":\"2026-04-29T07:25:10.185Z\",\"status\":200,\"duration\":232.169}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":957,\"timestamp\":\"2026-04-29T07:25:10.185Z\",\"status\":200,\"duration\":125.849}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":355,\"timestamp\":\"2026-04-29T07:25:10.185Z\",\"status\":200,\"duration\":107.433}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":455,\"timestamp\":\"2026-04-29T07:25:10.186Z\",\"status\":200,\"duration\":106.245}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":261,\"timestamp\":\"2026-04-29T07:25:10.287Z\",\"status\":200,\"duration\":169.468}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":753,\"timestamp\":\"2026-04-29T07:25:10.335Z\",\"status\":200,\"duration\":256.845}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":855,\"timestamp\":\"2026-04-29T07:25:10.343Z\",\"status\":200,\"duration\":235.956}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":158,\"timestamp\":\"2026-04-29T07:25:10.347Z\",\"status\":200,\"duration\":220.86}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":654,\"timestamp\":\"2026-04-29T07:25:10.373Z\",\"status\":200,\"duration\":172.998}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":57,\"timestamp\":\"2026-04-29T07:25:10.373Z\",\"status\":200,\"duration\":122.767}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":553,\"timestamp\":\"2026-04-29T07:25:10.389Z\",\"status\":200,\"duration\":102.276}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":958,\"timestamp\":\"2026-04-29T07:25:10.393Z\",\"status\":200,\"duration\":106.803}" source=console
+
+running (0m17.0s), 10/10 VUs, 562 complete and 0 interrupted iterations
+default   [  56% ] 10 VUs  17.0s/30s  0562/1000 shared iters
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":456,\"timestamp\":\"2026-04-29T07:25:10.518Z\",\"status\":200,\"duration\":232.061}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":356,\"timestamp\":\"2026-04-29T07:25:10.518Z\",\"status\":200,\"duration\":231.923}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":159,\"timestamp\":\"2026-04-29T07:25:10.542Z\",\"status\":200,\"duration\":93.811}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":856,\"timestamp\":\"2026-04-29T07:25:10.542Z\",\"status\":200,\"duration\":97.725}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":262,\"timestamp\":\"2026-04-29T07:25:10.542Z\",\"status\":200,\"duration\":153.187}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":754,\"timestamp\":\"2026-04-29T07:25:10.544Z\",\"status\":200,\"duration\":106.802}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":58,\"timestamp\":\"2026-04-29T07:25:10.583Z\",\"status\":200,\"duration\":108.398}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":959,\"timestamp\":\"2026-04-29T07:25:10.592Z\",\"status\":200,\"duration\":97.421}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":554,\"timestamp\":\"2026-04-29T07:25:10.723Z\",\"status\":200,\"duration\":233.663}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":59,\"timestamp\":\"2026-04-29T07:25:10.815Z\",\"status\":200,\"duration\":130.654}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":857,\"timestamp\":\"2026-04-29T07:25:10.815Z\",\"status\":200,\"duration\":171.788}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":655,\"timestamp\":\"2026-04-29T07:25:10.815Z\",\"status\":200,\"duration\":340.606}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":457,\"timestamp\":\"2026-04-29T07:25:10.815Z\",\"status\":200,\"duration\":195.292}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":357,\"timestamp\":\"2026-04-29T07:25:10.815Z\",\"status\":200,\"duration\":195.308}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":160,\"timestamp\":\"2026-04-29T07:25:10.860Z\",\"status\":200,\"duration\":217.555}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":263,\"timestamp\":\"2026-04-29T07:25:10.872Z\",\"status\":200,\"duration\":229.303}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":960,\"timestamp\":\"2026-04-29T07:25:10.923Z\",\"status\":200,\"duration\":230.717}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":755,\"timestamp\":\"2026-04-29T07:25:10.923Z\",\"status\":200,\"duration\":279.314}" source=console
+time="2026-04-29T02:25:10-05:00" level=info msg="{\"globalIndex\":555,\"timestamp\":\"2026-04-29T07:25:10.958Z\",\"status\":200,\"duration\":133.352}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":458,\"timestamp\":\"2026-04-29T07:25:11.031Z\",\"status\":200,\"duration\":113.738}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":858,\"timestamp\":\"2026-04-29T07:25:11.031Z\",\"status\":200,\"duration\":113.761}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":161,\"timestamp\":\"2026-04-29T07:25:11.070Z\",\"status\":200,\"duration\":108.399}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":961,\"timestamp\":\"2026-04-29T07:25:11.116Z\",\"status\":200,\"duration\":90.952}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":756,\"timestamp\":\"2026-04-29T07:25:11.131Z\",\"status\":200,\"duration\":105.698}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":264,\"timestamp\":\"2026-04-29T07:25:11.142Z\",\"status\":200,\"duration\":168.392}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":60,\"timestamp\":\"2026-04-29T07:25:11.159Z\",\"status\":200,\"duration\":242.058}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":656,\"timestamp\":\"2026-04-29T07:25:11.159Z\",\"status\":200,\"duration\":241.841}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":556,\"timestamp\":\"2026-04-29T07:25:11.164Z\",\"status\":200,\"duration\":104.028}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":358,\"timestamp\":\"2026-04-29T07:25:11.195Z\",\"status\":200,\"duration\":277.553}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":162,\"timestamp\":\"2026-04-29T07:25:11.337Z\",\"status\":200,\"duration\":166.021}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":962,\"timestamp\":\"2026-04-29T07:25:11.337Z\",\"status\":200,\"duration\":119.653}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":459,\"timestamp\":\"2026-04-29T07:25:11.337Z\",\"status\":200,\"duration\":205.491}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":265,\"timestamp\":\"2026-04-29T07:25:11.349Z\",\"status\":200,\"duration\":104.987}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":859,\"timestamp\":\"2026-04-29T07:25:11.367Z\",\"status\":200,\"duration\":235.546}" source=console
+
+running (0m18.0s), 10/10 VUs, 598 complete and 0 interrupted iterations
+default   [  60% ] 10 VUs  18.0s/30s  0598/1000 shared iters
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":657,\"timestamp\":\"2026-04-29T07:25:11.433Z\",\"status\":200,\"duration\":172.611}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":359,\"timestamp\":\"2026-04-29T07:25:11.445Z\",\"status\":200,\"duration\":148.096}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":757,\"timestamp\":\"2026-04-29T07:25:11.457Z\",\"status\":200,\"duration\":225.093}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":557,\"timestamp\":\"2026-04-29T07:25:11.486Z\",\"status\":200,\"duration\":221.1}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":61,\"timestamp\":\"2026-04-29T07:25:11.486Z\",\"status\":200,\"duration\":225.351}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":460,\"timestamp\":\"2026-04-29T07:25:11.532Z\",\"status\":200,\"duration\":92.019}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":163,\"timestamp\":\"2026-04-29T07:25:11.541Z\",\"status\":200,\"duration\":101.103}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":266,\"timestamp\":\"2026-04-29T07:25:11.553Z\",\"status\":200,\"duration\":101.617}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":860,\"timestamp\":\"2026-04-29T07:25:11.573Z\",\"status\":200,\"duration\":105.37}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":963,\"timestamp\":\"2026-04-29T07:25:11.589Z\",\"status\":200,\"duration\":149.225}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":558,\"timestamp\":\"2026-04-29T07:25:11.693Z\",\"status\":200,\"duration\":105.876}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":360,\"timestamp\":\"2026-04-29T07:25:11.699Z\",\"status\":200,\"duration\":151.131}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":62,\"timestamp\":\"2026-04-29T07:25:11.722Z\",\"status\":200,\"duration\":135.342}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":267,\"timestamp\":\"2026-04-29T07:25:11.747Z\",\"status\":200,\"duration\":93.078}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":658,\"timestamp\":\"2026-04-29T07:25:11.767Z\",\"status\":200,\"duration\":233.179}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":461,\"timestamp\":\"2026-04-29T07:25:11.862Z\",\"status\":200,\"duration\":229.296}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":758,\"timestamp\":\"2026-04-29T07:25:11.862Z\",\"status\":200,\"duration\":304.313}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":861,\"timestamp\":\"2026-04-29T07:25:11.909Z\",\"status\":200,\"duration\":234.02}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":164,\"timestamp\":\"2026-04-29T07:25:11.925Z\",\"status\":200,\"duration\":282.799}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":964,\"timestamp\":\"2026-04-29T07:25:11.928Z\",\"status\":200,\"duration\":237.726}" source=console
+time="2026-04-29T02:25:11-05:00" level=info msg="{\"globalIndex\":63,\"timestamp\":\"2026-04-29T07:25:11.964Z\",\"status\":200,\"duration\":139.838}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":361,\"timestamp\":\"2026-04-29T07:25:12.002Z\",\"status\":200,\"duration\":201.776}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":759,\"timestamp\":\"2026-04-29T07:25:12.071Z\",\"status\":200,\"duration\":107.444}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":268,\"timestamp\":\"2026-04-29T07:25:12.096Z\",\"status\":200,\"duration\":247.704}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":462,\"timestamp\":\"2026-04-29T07:25:12.096Z\",\"status\":200,\"duration\":131.821}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":559,\"timestamp\":\"2026-04-29T07:25:12.096Z\",\"status\":200,\"duration\":301.943}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":659,\"timestamp\":\"2026-04-29T07:25:12.097Z\",\"status\":200,\"duration\":229.358}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":165,\"timestamp\":\"2026-04-29T07:25:12.132Z\",\"status\":200,\"duration\":105.744}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":965,\"timestamp\":\"2026-04-29T07:25:12.139Z\",\"status\":200,\"duration\":110.599}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":362,\"timestamp\":\"2026-04-29T07:25:12.207Z\",\"status\":200,\"duration\":103.239}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":862,\"timestamp\":\"2026-04-29T07:25:12.248Z\",\"status\":200,\"duration\":237.964}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":64,\"timestamp\":\"2026-04-29T07:25:12.285Z\",\"status\":200,\"duration\":218.974}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":966,\"timestamp\":\"2026-04-29T07:25:12.387Z\",\"status\":200,\"duration\":146.701}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":560,\"timestamp\":\"2026-04-29T07:25:12.387Z\",\"status\":200,\"duration\":189.79}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":166,\"timestamp\":\"2026-04-29T07:25:12.387Z\",\"status\":200,\"duration\":153.742}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":463,\"timestamp\":\"2026-04-29T07:25:12.387Z\",\"status\":200,\"duration\":189.575}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":269,\"timestamp\":\"2026-04-29T07:25:12.388Z\",\"status\":200,\"duration\":190.61}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":660,\"timestamp\":\"2026-04-29T07:25:12.418Z\",\"status\":200,\"duration\":220.648}" source=console
+
+running (0m19.0s), 10/10 VUs, 635 complete and 0 interrupted iterations
+default   [  64% ] 10 VUs  19.0s/30s  0635/1000 shared iters
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":760,\"timestamp\":\"2026-04-29T07:25:12.431Z\",\"status\":200,\"duration\":258.899}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":65,\"timestamp\":\"2026-04-29T07:25:12.522Z\",\"status\":200,\"duration\":135.603}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":363,\"timestamp\":\"2026-04-29T07:25:12.522Z\",\"status\":200,\"duration\":214.353}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":967,\"timestamp\":\"2026-04-29T07:25:12.589Z\",\"status\":200,\"duration\":100.288}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":661,\"timestamp\":\"2026-04-29T07:25:12.613Z\",\"status\":200,\"duration\":92.736}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":863,\"timestamp\":\"2026-04-29T07:25:12.642Z\",\"status\":200,\"duration\":291.622}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":761,\"timestamp\":\"2026-04-29T07:25:12.687Z\",\"status\":200,\"duration\":154.784}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":270,\"timestamp\":\"2026-04-29T07:25:12.704Z\",\"status\":200,\"duration\":215.349}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":66,\"timestamp\":\"2026-04-29T07:25:12.729Z\",\"status\":200,\"duration\":105.453}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":464,\"timestamp\":\"2026-04-29T07:25:12.734Z\",\"status\":200,\"duration\":245.377}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":561,\"timestamp\":\"2026-04-29T07:25:12.755Z\",\"status\":200,\"duration\":266.135}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":167,\"timestamp\":\"2026-04-29T07:25:12.764Z\",\"status\":200,\"duration\":274.746}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":968,\"timestamp\":\"2026-04-29T07:25:12.800Z\",\"status\":200,\"duration\":109.503}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":364,\"timestamp\":\"2026-04-29T07:25:12.909Z\",\"status\":200,\"duration\":285.04}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":271,\"timestamp\":\"2026-04-29T07:25:12.917Z\",\"status\":200,\"duration\":111.289}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":662,\"timestamp\":\"2026-04-29T07:25:12.947Z\",\"status\":200,\"duration\":232.562}" source=console
+time="2026-04-29T02:25:12-05:00" level=info msg="{\"globalIndex\":864,\"timestamp\":\"2026-04-29T07:25:12.977Z\",\"status\":200,\"duration\":233.007}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":168,\"timestamp\":\"2026-04-29T07:25:13.008Z\",\"status\":200,\"duration\":143.242}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":762,\"timestamp\":\"2026-04-29T07:25:13.023Z\",\"status\":200,\"duration\":234.393}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":969,\"timestamp\":\"2026-04-29T07:25:13.052Z\",\"status\":200,\"duration\":150.733}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":465,\"timestamp\":\"2026-04-29T07:25:13.135Z\",\"status\":200,\"duration\":299.439}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":67,\"timestamp\":\"2026-04-29T07:25:13.135Z\",\"status\":200,\"duration\":303.985}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":562,\"timestamp\":\"2026-04-29T07:25:13.138Z\",\"status\":200,\"duration\":280.896}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":365,\"timestamp\":\"2026-04-29T07:25:13.141Z\",\"status\":200,\"duration\":131.583}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":663,\"timestamp\":\"2026-04-29T07:25:13.199Z\",\"status\":200,\"duration\":146.649}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":169,\"timestamp\":\"2026-04-29T07:25:13.210Z\",\"status\":200,\"duration\":100.599}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":865,\"timestamp\":\"2026-04-29T07:25:13.223Z\",\"status\":200,\"duration\":144.525}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":763,\"timestamp\":\"2026-04-29T07:25:13.250Z\",\"status\":200,\"duration\":125.723}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":272,\"timestamp\":\"2026-04-29T07:25:13.250Z\",\"status\":200,\"duration\":231.609}" source=console
+
+running (0m20.0s), 10/10 VUs, 670 complete and 0 interrupted iterations
+default   [  67% ] 10 VUs  20.0s/30s  0670/1000 shared iters
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":466,\"timestamp\":\"2026-04-29T07:25:13.436Z\",\"status\":200,\"duration\":199.489}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":366,\"timestamp\":\"2026-04-29T07:25:13.437Z\",\"status\":200,\"duration\":195.082}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":563,\"timestamp\":\"2026-04-29T07:25:13.437Z\",\"status\":200,\"duration\":197.958}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":970,\"timestamp\":\"2026-04-29T07:25:13.437Z\",\"status\":200,\"duration\":283.376}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":866,\"timestamp\":\"2026-04-29T07:25:13.438Z\",\"status\":200,\"duration\":113.742}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":664,\"timestamp\":\"2026-04-29T07:25:13.453Z\",\"status\":200,\"duration\":152.506}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":68,\"timestamp\":\"2026-04-29T07:25:13.475Z\",\"status\":200,\"duration\":237.995}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":170,\"timestamp\":\"2026-04-29T07:25:13.548Z\",\"status\":200,\"duration\":234.438}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":273,\"timestamp\":\"2026-04-29T07:25:13.581Z\",\"status\":200,\"duration\":229.329}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":867,\"timestamp\":\"2026-04-29T07:25:13.650Z\",\"status\":200,\"duration\":110.665}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":367,\"timestamp\":\"2026-04-29T07:25:13.650Z\",\"status\":200,\"duration\":111.777}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":764,\"timestamp\":\"2026-04-29T07:25:13.665Z\",\"status\":200,\"duration\":313.096}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":564,\"timestamp\":\"2026-04-29T07:25:13.672Z\",\"status\":200,\"duration\":134.116}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":69,\"timestamp\":\"2026-04-29T07:25:13.716Z\",\"status\":200,\"duration\":140.657}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":171,\"timestamp\":\"2026-04-29T07:25:13.755Z\",\"status\":200,\"duration\":106.144}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":467,\"timestamp\":\"2026-04-29T07:25:13.769Z\",\"status\":200,\"duration\":231.52}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":971,\"timestamp\":\"2026-04-29T07:25:13.770Z\",\"status\":200,\"duration\":232.312}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":274,\"timestamp\":\"2026-04-29T07:25:13.791Z\",\"status\":200,\"duration\":106.083}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":665,\"timestamp\":\"2026-04-29T07:25:13.805Z\",\"status\":200,\"duration\":251.715}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":868,\"timestamp\":\"2026-04-29T07:25:13.858Z\",\"status\":200,\"duration\":107.11}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":368,\"timestamp\":\"2026-04-29T07:25:13.858Z\",\"status\":200,\"duration\":107.12}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":765,\"timestamp\":\"2026-04-29T07:25:13.959Z\",\"status\":200,\"duration\":191.789}" source=console
+time="2026-04-29T02:25:13-05:00" level=info msg="{\"globalIndex\":172,\"timestamp\":\"2026-04-29T07:25:13.965Z\",\"status\":200,\"duration\":109.355}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":565,\"timestamp\":\"2026-04-29T07:25:14.001Z\",\"status\":200,\"duration\":228.593}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":275,\"timestamp\":\"2026-04-29T07:25:14.046Z\",\"status\":200,\"duration\":153.148}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":666,\"timestamp\":\"2026-04-29T07:25:14.065Z\",\"status\":200,\"duration\":157.686}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":369,\"timestamp\":\"2026-04-29T07:25:14.065Z\",\"status\":200,\"duration\":105.543}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":70,\"timestamp\":\"2026-04-29T07:25:14.084Z\",\"status\":200,\"duration\":266.343}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":468,\"timestamp\":\"2026-04-29T07:25:14.092Z\",\"status\":200,\"duration\":222.441}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":766,\"timestamp\":\"2026-04-29T07:25:14.167Z\",\"status\":200,\"duration\":106.657}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":869,\"timestamp\":\"2026-04-29T07:25:14.176Z\",\"status\":200,\"duration\":216.338}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":972,\"timestamp\":\"2026-04-29T07:25:14.186Z\",\"status\":200,\"duration\":314.809}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":566,\"timestamp\":\"2026-04-29T07:25:14.196Z\",\"status\":200,\"duration\":92.864}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":370,\"timestamp\":\"2026-04-29T07:25:14.269Z\",\"status\":200,\"duration\":103.379}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":71,\"timestamp\":\"2026-04-29T07:25:14.291Z\",\"status\":200,\"duration\":106.655}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":173,\"timestamp\":\"2026-04-29T07:25:14.293Z\",\"status\":200,\"duration\":226.701}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":469,\"timestamp\":\"2026-04-29T07:25:14.296Z\",\"status\":200,\"duration\":103.278}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":767,\"timestamp\":\"2026-04-29T07:25:14.372Z\",\"status\":200,\"duration\":102.895}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":870,\"timestamp\":\"2026-04-29T07:25:14.377Z\",\"status\":200,\"duration\":101.126}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":567,\"timestamp\":\"2026-04-29T07:25:14.387Z\",\"status\":200,\"duration\":90.913}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":276,\"timestamp\":\"2026-04-29T07:25:14.387Z\",\"status\":200,\"duration\":238.265}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":973,\"timestamp\":\"2026-04-29T07:25:14.392Z\",\"status\":200,\"duration\":105.195}" source=console
+
+running (0m21.0s), 10/10 VUs, 707 complete and 0 interrupted iterations
+default   [  71% ] 10 VUs  21.0s/30s  0707/1000 shared iters
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":667,\"timestamp\":\"2026-04-29T07:25:14.484Z\",\"status\":200,\"duration\":318.071}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":371,\"timestamp\":\"2026-04-29T07:25:14.506Z\",\"status\":200,\"duration\":134.914}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":72,\"timestamp\":\"2026-04-29T07:25:14.567Z\",\"status\":200,\"duration\":175.375}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":768,\"timestamp\":\"2026-04-29T07:25:14.582Z\",\"status\":200,\"duration\":108.585}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":174,\"timestamp\":\"2026-04-29T07:25:14.582Z\",\"status\":200,\"duration\":188.795}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":871,\"timestamp\":\"2026-04-29T07:25:14.582Z\",\"status\":200,\"duration\":104.087}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":277,\"timestamp\":\"2026-04-29T07:25:14.594Z\",\"status\":200,\"duration\":106.751}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":568,\"timestamp\":\"2026-04-29T07:25:14.629Z\",\"status\":200,\"duration\":141.714}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":470,\"timestamp\":\"2026-04-29T07:25:14.709Z\",\"status\":200,\"duration\":311.989}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":372,\"timestamp\":\"2026-04-29T07:25:14.713Z\",\"status\":200,\"duration\":105.578}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":974,\"timestamp\":\"2026-04-29T07:25:14.743Z\",\"status\":200,\"duration\":250.911}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":73,\"timestamp\":\"2026-04-29T07:25:14.776Z\",\"status\":200,\"duration\":107.334}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":769,\"timestamp\":\"2026-04-29T07:25:14.792Z\",\"status\":200,\"duration\":108.626}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":668,\"timestamp\":\"2026-04-29T07:25:14.821Z\",\"status\":200,\"duration\":236.234}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":278,\"timestamp\":\"2026-04-29T07:25:14.832Z\",\"status\":200,\"duration\":135.686}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":872,\"timestamp\":\"2026-04-29T07:25:14.914Z\",\"status\":200,\"duration\":230.709}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":471,\"timestamp\":\"2026-04-29T07:25:14.914Z\",\"status\":200,\"duration\":104.008}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":175,\"timestamp\":\"2026-04-29T07:25:14.914Z\",\"status\":200,\"duration\":230.695}" source=console
+time="2026-04-29T02:25:14-05:00" level=info msg="{\"globalIndex\":373,\"timestamp\":\"2026-04-29T07:25:14.917Z\",\"status\":200,\"duration\":103.666}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":569,\"timestamp\":\"2026-04-29T07:25:15.008Z\",\"status\":200,\"duration\":277.059}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":975,\"timestamp\":\"2026-04-29T07:25:15.008Z\",\"status\":200,\"duration\":162.692}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":74,\"timestamp\":\"2026-04-29T07:25:15.008Z\",\"status\":200,\"duration\":130.477}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":770,\"timestamp\":\"2026-04-29T07:25:15.110Z\",\"status\":200,\"duration\":216.899}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":176,\"timestamp\":\"2026-04-29T07:25:15.124Z\",\"status\":200,\"duration\":105.357}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":279,\"timestamp\":\"2026-04-29T07:25:15.139Z\",\"status\":200,\"duration\":205.448}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":472,\"timestamp\":\"2026-04-29T07:25:15.157Z\",\"status\":200,\"duration\":138.715}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":570,\"timestamp\":\"2026-04-29T07:25:15.211Z\",\"status\":200,\"duration\":101.86}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":669,\"timestamp\":\"2026-04-29T07:25:15.234Z\",\"status\":200,\"duration\":311.116}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":976,\"timestamp\":\"2026-04-29T07:25:15.253Z\",\"status\":200,\"duration\":143.884}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":873,\"timestamp\":\"2026-04-29T07:25:15.253Z\",\"status\":200,\"duration\":233.904}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":374,\"timestamp\":\"2026-04-29T07:25:15.279Z\",\"status\":200,\"duration\":259.948}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":771,\"timestamp\":\"2026-04-29T07:25:15.311Z\",\"status\":200,\"duration\":100.441}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":75,\"timestamp\":\"2026-04-29T07:25:15.365Z\",\"status\":200,\"duration\":255.628}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":473,\"timestamp\":\"2026-04-29T07:25:15.393Z\",\"status\":200,\"duration\":134.544}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":571,\"timestamp\":\"2026-04-29T07:25:15.402Z\",\"status\":200,\"duration\":90.39}" source=console
+
+running (0m22.0s), 10/10 VUs, 744 complete and 0 interrupted iterations
+default   [  74% ] 10 VUs  22.0s/30s  0744/1000 shared iters
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":177,\"timestamp\":\"2026-04-29T07:25:15.534Z\",\"status\":200,\"duration\":309.232}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":874,\"timestamp\":\"2026-04-29T07:25:15.534Z\",\"status\":200,\"duration\":179.64}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":280,\"timestamp\":\"2026-04-29T07:25:15.534Z\",\"status\":200,\"duration\":293.959}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":977,\"timestamp\":\"2026-04-29T07:25:15.534Z\",\"status\":200,\"duration\":177.913}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":670,\"timestamp\":\"2026-04-29T07:25:15.534Z\",\"status\":200,\"duration\":198.489}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":375,\"timestamp\":\"2026-04-29T07:25:15.534Z\",\"status\":200,\"duration\":153.198}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":772,\"timestamp\":\"2026-04-29T07:25:15.557Z\",\"status\":200,\"duration\":144.976}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":76,\"timestamp\":\"2026-04-29T07:25:15.618Z\",\"status\":200,\"duration\":152.149}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":572,\"timestamp\":\"2026-04-29T07:25:15.657Z\",\"status\":200,\"duration\":153.263}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":376,\"timestamp\":\"2026-04-29T07:25:15.730Z\",\"status\":200,\"duration\":95.598}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":978,\"timestamp\":\"2026-04-29T07:25:15.739Z\",\"status\":200,\"duration\":104.075}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":178,\"timestamp\":\"2026-04-29T07:25:15.739Z\",\"status\":200,\"duration\":103.962}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":281,\"timestamp\":\"2026-04-29T07:25:15.739Z\",\"status\":200,\"duration\":104.05}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":474,\"timestamp\":\"2026-04-29T07:25:15.755Z\",\"status\":200,\"duration\":260.796}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":773,\"timestamp\":\"2026-04-29T07:25:15.762Z\",\"status\":200,\"duration\":104.677}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":671,\"timestamp\":\"2026-04-29T07:25:15.862Z\",\"status\":200,\"duration\":226.768}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":573,\"timestamp\":\"2026-04-29T07:25:15.865Z\",\"status\":200,\"duration\":107.901}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":875,\"timestamp\":\"2026-04-29T07:25:15.890Z\",\"status\":200,\"duration\":255.291}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":179,\"timestamp\":\"2026-04-29T07:25:15.928Z\",\"status\":200,\"duration\":88.293}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":979,\"timestamp\":\"2026-04-29T07:25:15.942Z\",\"status\":200,\"duration\":101.543}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":77,\"timestamp\":\"2026-04-29T07:25:15.951Z\",\"status\":200,\"duration\":231.949}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":774,\"timestamp\":\"2026-04-29T07:25:15.955Z\",\"status\":200,\"duration\":92.104}" source=console
+time="2026-04-29T02:25:15-05:00" level=info msg="{\"globalIndex\":475,\"timestamp\":\"2026-04-29T07:25:15.957Z\",\"status\":200,\"duration\":101.533}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":282,\"timestamp\":\"2026-04-29T07:25:16.055Z\",\"status\":200,\"duration\":214.708}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":377,\"timestamp\":\"2026-04-29T07:25:16.069Z\",\"status\":200,\"duration\":237.818}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":180,\"timestamp\":\"2026-04-29T07:25:16.151Z\",\"status\":200,\"duration\":122.084}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":78,\"timestamp\":\"2026-04-29T07:25:16.158Z\",\"status\":200,\"duration\":105.109}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":476,\"timestamp\":\"2026-04-29T07:25:16.158Z\",\"status\":200,\"duration\":101.296}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":672,\"timestamp\":\"2026-04-29T07:25:16.191Z\",\"status\":200,\"duration\":228.142}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":283,\"timestamp\":\"2026-04-29T07:25:16.258Z\",\"status\":200,\"duration\":102.247}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":980,\"timestamp\":\"2026-04-29T07:25:16.273Z\",\"status\":200,\"duration\":230.456}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":574,\"timestamp\":\"2026-04-29T07:25:16.281Z\",\"status\":200,\"duration\":315.329}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":775,\"timestamp\":\"2026-04-29T07:25:16.285Z\",\"status\":200,\"duration\":229.124}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":876,\"timestamp\":\"2026-04-29T07:25:16.328Z\",\"status\":200,\"duration\":336.397}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":181,\"timestamp\":\"2026-04-29T07:25:16.357Z\",\"status\":200,\"duration\":104.436}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":79,\"timestamp\":\"2026-04-29T07:25:16.362Z\",\"status\":200,\"duration\":103.443}" source=console
+
+running (0m23.0s), 10/10 VUs, 780 complete and 0 interrupted iterations
+default   [  78% ] 10 VUs  23.0s/30s  0780/1000 shared iters
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":378,\"timestamp\":\"2026-04-29T07:25:16.439Z\",\"status\":200,\"duration\":269.081}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":284,\"timestamp\":\"2026-04-29T07:25:16.460Z\",\"status\":200,\"duration\":101.783}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":776,\"timestamp\":\"2026-04-29T07:25:16.479Z\",\"status\":200,\"duration\":93.454}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":981,\"timestamp\":\"2026-04-29T07:25:16.581Z\",\"status\":200,\"duration\":206.129}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":877,\"timestamp\":\"2026-04-29T07:25:16.581Z\",\"status\":200,\"duration\":151.908}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":477,\"timestamp\":\"2026-04-29T07:25:16.581Z\",\"status\":200,\"duration\":322.08}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":673,\"timestamp\":\"2026-04-29T07:25:16.581Z\",\"status\":200,\"duration\":289.066}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":575,\"timestamp\":\"2026-04-29T07:25:16.620Z\",\"status\":200,\"duration\":235.035}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":777,\"timestamp\":\"2026-04-29T07:25:16.684Z\",\"status\":200,\"duration\":104.254}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":182,\"timestamp\":\"2026-04-29T07:25:16.689Z\",\"status\":200,\"duration\":230.996}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":80,\"timestamp\":\"2026-04-29T07:25:16.693Z\",\"status\":200,\"duration\":230.55}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":379,\"timestamp\":\"2026-04-29T07:25:16.708Z\",\"status\":200,\"duration\":167.915}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":878,\"timestamp\":\"2026-04-29T07:25:16.786Z\",\"status\":200,\"duration\":103.405}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":478,\"timestamp\":\"2026-04-29T07:25:16.821Z\",\"status\":200,\"duration\":138.52}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":982,\"timestamp\":\"2026-04-29T07:25:16.824Z\",\"status\":200,\"duration\":141.899}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":285,\"timestamp\":\"2026-04-29T07:25:16.828Z\",\"status\":200,\"duration\":266.368}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":183,\"timestamp\":\"2026-04-29T07:25:16.901Z\",\"status\":200,\"duration\":110.179}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":778,\"timestamp\":\"2026-04-29T07:25:16.901Z\",\"status\":200,\"duration\":115.38}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":81,\"timestamp\":\"2026-04-29T07:25:16.901Z\",\"status\":200,\"duration\":106.919}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":674,\"timestamp\":\"2026-04-29T07:25:16.902Z\",\"status\":200,\"duration\":219.136}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":380,\"timestamp\":\"2026-04-29T07:25:16.919Z\",\"status\":200,\"duration\":109.548}" source=console
+time="2026-04-29T02:25:16-05:00" level=info msg="{\"globalIndex\":576,\"timestamp\":\"2026-04-29T07:25:16.953Z\",\"status\":200,\"duration\":231.448}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":479,\"timestamp\":\"2026-04-29T07:25:17.106Z\",\"status\":200,\"duration\":184.216}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":879,\"timestamp\":\"2026-04-29T07:25:17.106Z\",\"status\":200,\"duration\":217.714}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":82,\"timestamp\":\"2026-04-29T07:25:17.111Z\",\"status\":200,\"duration\":108.439}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":184,\"timestamp\":\"2026-04-29T07:25:17.143Z\",\"status\":200,\"duration\":140.793}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":983,\"timestamp\":\"2026-04-29T07:25:17.144Z\",\"status\":200,\"duration\":218.41}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":286,\"timestamp\":\"2026-04-29T07:25:17.149Z\",\"status\":200,\"duration\":220.04}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":577,\"timestamp\":\"2026-04-29T07:25:17.189Z\",\"status\":200,\"duration\":134.351}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":381,\"timestamp\":\"2026-04-29T07:25:17.231Z\",\"status\":200,\"duration\":210.91}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":779,\"timestamp\":\"2026-04-29T07:25:17.234Z\",\"status\":200,\"duration\":231.567}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":675,\"timestamp\":\"2026-04-29T07:25:17.266Z\",\"status\":200,\"duration\":263.784}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":880,\"timestamp\":\"2026-04-29T07:25:17.310Z\",\"status\":200,\"duration\":102.787}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":480,\"timestamp\":\"2026-04-29T07:25:17.320Z\",\"status\":200,\"duration\":112.424}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":83,\"timestamp\":\"2026-04-29T07:25:17.320Z\",\"status\":200,\"duration\":108.027}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":984,\"timestamp\":\"2026-04-29T07:25:17.348Z\",\"status\":200,\"duration\":103.015}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":287,\"timestamp\":\"2026-04-29T07:25:17.358Z\",\"status\":200,\"duration\":108.038}" source=console
+
+running (0m24.0s), 10/10 VUs, 818 complete and 0 interrupted iterations
+default   [  82% ] 10 VUs  24.0s/30s  0818/1000 shared iters
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":578,\"timestamp\":\"2026-04-29T07:25:17.429Z\",\"status\":200,\"duration\":139.857}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":780,\"timestamp\":\"2026-04-29T07:25:17.429Z\",\"status\":200,\"duration\":95.011}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":382,\"timestamp\":\"2026-04-29T07:25:17.438Z\",\"status\":200,\"duration\":104.973}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":185,\"timestamp\":\"2026-04-29T07:25:17.472Z\",\"status\":200,\"duration\":227.536}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":481,\"timestamp\":\"2026-04-29T07:25:17.522Z\",\"status\":200,\"duration\":100.972}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":84,\"timestamp\":\"2026-04-29T07:25:17.629Z\",\"status\":200,\"duration\":207.612}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":676,\"timestamp\":\"2026-04-29T07:25:17.629Z\",\"status\":200,\"duration\":261.267}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":288,\"timestamp\":\"2026-04-29T07:25:17.629Z\",\"status\":200,\"duration\":170.164}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":781,\"timestamp\":\"2026-04-29T07:25:17.629Z\",\"status\":200,\"duration\":98.69}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":881,\"timestamp\":\"2026-04-29T07:25:17.644Z\",\"status\":200,\"duration\":231.792}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":985,\"timestamp\":\"2026-04-29T07:25:17.727Z\",\"status\":200,\"duration\":278.131}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":482,\"timestamp\":\"2026-04-29T07:25:17.729Z\",\"status\":200,\"duration\":104.921}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":186,\"timestamp\":\"2026-04-29T07:25:17.729Z\",\"status\":200,\"duration\":154.876}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":579,\"timestamp\":\"2026-04-29T07:25:17.763Z\",\"status\":200,\"duration\":232.37}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":782,\"timestamp\":\"2026-04-29T07:25:17.822Z\",\"status\":200,\"duration\":91.762}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":882,\"timestamp\":\"2026-04-29T07:25:17.845Z\",\"status\":200,\"duration\":100.635}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":383,\"timestamp\":\"2026-04-29T07:25:17.858Z\",\"status\":200,\"duration\":319.161}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":85,\"timestamp\":\"2026-04-29T07:25:17.863Z\",\"status\":200,\"duration\":133.879}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":289,\"timestamp\":\"2026-04-29T07:25:17.865Z\",\"status\":200,\"duration\":134.927}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":986,\"timestamp\":\"2026-04-29T07:25:17.930Z\",\"status\":200,\"duration\":101.348}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":483,\"timestamp\":\"2026-04-29T07:25:17.933Z\",\"status\":200,\"duration\":104.263}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":677,\"timestamp\":\"2026-04-29T07:25:17.958Z\",\"status\":200,\"duration\":228.132}" source=console
+time="2026-04-29T02:25:17-05:00" level=info msg="{\"globalIndex\":580,\"timestamp\":\"2026-04-29T07:25:17.962Z\",\"status\":200,\"duration\":98.847}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":883,\"timestamp\":\"2026-04-29T07:25:18.038Z\",\"status\":200,\"duration\":92.101}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":384,\"timestamp\":\"2026-04-29T07:25:18.061Z\",\"status\":200,\"duration\":102.297}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":484,\"timestamp\":\"2026-04-29T07:25:18.154Z\",\"status\":200,\"duration\":120.053}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":987,\"timestamp\":\"2026-04-29T07:25:18.154Z\",\"status\":200,\"duration\":123.386}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":86,\"timestamp\":\"2026-04-29T07:25:18.154Z\",\"status\":200,\"duration\":190.371}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":187,\"timestamp\":\"2026-04-29T07:25:18.155Z\",\"status\":200,\"duration\":325.033}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":290,\"timestamp\":\"2026-04-29T07:25:18.155Z\",\"status\":200,\"duration\":189.544}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":678,\"timestamp\":\"2026-04-29T07:25:18.164Z\",\"status\":200,\"duration\":104.772}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":783,\"timestamp\":\"2026-04-29T07:25:18.184Z\",\"status\":200,\"duration\":260.606}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":385,\"timestamp\":\"2026-04-29T07:25:18.263Z\",\"status\":200,\"duration\":100.98}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":188,\"timestamp\":\"2026-04-29T07:25:18.348Z\",\"status\":200,\"duration\":92.182}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":485,\"timestamp\":\"2026-04-29T07:25:18.362Z\",\"status\":200,\"duration\":104.592}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":291,\"timestamp\":\"2026-04-29T07:25:18.362Z\",\"status\":200,\"duration\":105.857}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":679,\"timestamp\":\"2026-04-29T07:25:18.367Z\",\"status\":200,\"duration\":102.944}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":884,\"timestamp\":\"2026-04-29T07:25:18.379Z\",\"status\":200,\"duration\":239.256}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":784,\"timestamp\":\"2026-04-29T07:25:18.379Z\",\"status\":200,\"duration\":93.62}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":87,\"timestamp\":\"2026-04-29T07:25:18.400Z\",\"status\":200,\"duration\":144.181}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":581,\"timestamp\":\"2026-04-29T07:25:18.415Z\",\"status\":200,\"duration\":352.075}" source=console
+
+running (0m25.0s), 10/10 VUs, 853 complete and 0 interrupted iterations
+default   [  85% ] 10 VUs  25.0s/30s  0853/1000 shared iters
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":988,\"timestamp\":\"2026-04-29T07:25:18.487Z\",\"status\":200,\"duration\":230.963}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":189,\"timestamp\":\"2026-04-29T07:25:18.556Z\",\"status\":200,\"duration\":106.536}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":885,\"timestamp\":\"2026-04-29T07:25:18.586Z\",\"status\":200,\"duration\":106.619}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":582,\"timestamp\":\"2026-04-29T07:25:18.678Z\",\"status\":200,\"duration\":162.065}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":386,\"timestamp\":\"2026-04-29T07:25:18.678Z\",\"status\":200,\"duration\":313.138}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":88,\"timestamp\":\"2026-04-29T07:25:18.678Z\",\"status\":200,\"duration\":177.157}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":785,\"timestamp\":\"2026-04-29T07:25:18.678Z\",\"status\":200,\"duration\":199.011}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":680,\"timestamp\":\"2026-04-29T07:25:18.698Z\",\"status\":200,\"duration\":230.344}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":292,\"timestamp\":\"2026-04-29T07:25:18.726Z\",\"status\":200,\"duration\":262.781}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":486,\"timestamp\":\"2026-04-29T07:25:18.745Z\",\"status\":200,\"duration\":281.713}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":190,\"timestamp\":\"2026-04-29T07:25:18.815Z\",\"status\":200,\"duration\":157.046}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":989,\"timestamp\":\"2026-04-29T07:25:18.815Z\",\"status\":200,\"duration\":226.682}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":583,\"timestamp\":\"2026-04-29T07:25:18.882Z\",\"status\":200,\"duration\":102.997}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":387,\"timestamp\":\"2026-04-29T07:25:18.882Z\",\"status\":200,\"duration\":102.997}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":786,\"timestamp\":\"2026-04-29T07:25:18.882Z\",\"status\":200,\"duration\":102.994}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":89,\"timestamp\":\"2026-04-29T07:25:18.884Z\",\"status\":200,\"duration\":105.183}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":681,\"timestamp\":\"2026-04-29T07:25:18.892Z\",\"status\":200,\"duration\":93.221}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":886,\"timestamp\":\"2026-04-29T07:25:18.922Z\",\"status\":200,\"duration\":234.678}" source=console
+time="2026-04-29T02:25:18-05:00" level=info msg="{\"globalIndex\":487,\"timestamp\":\"2026-04-29T07:25:18.950Z\",\"status\":200,\"duration\":103.587}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":990,\"timestamp\":\"2026-04-29T07:25:19.020Z\",\"status\":200,\"duration\":103.233}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":191,\"timestamp\":\"2026-04-29T07:25:19.020Z\",\"status\":200,\"duration\":103.233}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":293,\"timestamp\":\"2026-04-29T07:25:19.065Z\",\"status\":200,\"duration\":237.732}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":388,\"timestamp\":\"2026-04-29T07:25:19.084Z\",\"status\":200,\"duration\":100.607}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":787,\"timestamp\":\"2026-04-29T07:25:19.087Z\",\"status\":200,\"duration\":103.645}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":682,\"timestamp\":\"2026-04-29T07:25:19.100Z\",\"status\":200,\"duration\":106.483}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":887,\"timestamp\":\"2026-04-29T07:25:19.200Z\",\"status\":200,\"duration\":177.427}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":90,\"timestamp\":\"2026-04-29T07:25:19.203Z\",\"status\":200,\"duration\":218.319}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":584,\"timestamp\":\"2026-04-29T07:25:19.211Z\",\"status\":200,\"duration\":227.528}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":488,\"timestamp\":\"2026-04-29T07:25:19.288Z\",\"status\":200,\"duration\":235.802}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":683,\"timestamp\":\"2026-04-29T07:25:19.300Z\",\"status\":200,\"duration\":100.417}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":991,\"timestamp\":\"2026-04-29T07:25:19.331Z\",\"status\":200,\"duration\":210.247}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":91,\"timestamp\":\"2026-04-29T07:25:19.408Z\",\"status\":200,\"duration\":104.468}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":585,\"timestamp\":\"2026-04-29T07:25:19.411Z\",\"status\":200,\"duration\":99.369}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":192,\"timestamp\":\"2026-04-29T07:25:19.415Z\",\"status\":200,\"duration\":294.01}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":788,\"timestamp\":\"2026-04-29T07:25:19.420Z\",\"status\":200,\"duration\":232.424}" source=console
+
+running (0m26.0s), 10/10 VUs, 891 complete and 0 interrupted iterations
+default   [  89% ] 10 VUs  26.0s/30s  0891/1000 shared iters
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":294,\"timestamp\":\"2026-04-29T07:25:19.425Z\",\"status\":200,\"duration\":258.305}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":389,\"timestamp\":\"2026-04-29T07:25:19.434Z\",\"status\":200,\"duration\":248.957}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":489,\"timestamp\":\"2026-04-29T07:25:19.490Z\",\"status\":200,\"duration\":100.996}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":684,\"timestamp\":\"2026-04-29T07:25:19.500Z\",\"status\":200,\"duration\":99.164}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":888,\"timestamp\":\"2026-04-29T07:25:19.530Z\",\"status\":200,\"duration\":229.96}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":992,\"timestamp\":\"2026-04-29T07:25:19.539Z\",\"status\":200,\"duration\":106.335}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":586,\"timestamp\":\"2026-04-29T07:25:19.610Z\",\"status\":200,\"duration\":96.43}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":193,\"timestamp\":\"2026-04-29T07:25:19.633Z\",\"status\":200,\"duration\":110.52}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":295,\"timestamp\":\"2026-04-29T07:25:19.634Z\",\"status\":200,\"duration\":108.932}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":390,\"timestamp\":\"2026-04-29T07:25:19.726Z\",\"status\":200,\"duration\":191.854}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":789,\"timestamp\":\"2026-04-29T07:25:19.726Z\",\"status\":200,\"duration\":205.824}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":490,\"timestamp\":\"2026-04-29T07:25:19.726Z\",\"status\":200,\"duration\":134.823}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":92,\"timestamp\":\"2026-04-29T07:25:19.777Z\",\"status\":200,\"duration\":268.384}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":587,\"timestamp\":\"2026-04-29T07:25:19.823Z\",\"status\":200,\"duration\":111.366}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":685,\"timestamp\":\"2026-04-29T07:25:19.833Z\",\"status\":200,\"duration\":231.275}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":296,\"timestamp\":\"2026-04-29T07:25:19.838Z\",\"status\":200,\"duration\":103.313}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":993,\"timestamp\":\"2026-04-29T07:25:19.855Z\",\"status\":200,\"duration\":214.709}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":889,\"timestamp\":\"2026-04-29T07:25:19.860Z\",\"status\":200,\"duration\":226.184}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":491,\"timestamp\":\"2026-04-29T07:25:19.921Z\",\"status\":200,\"duration\":93.305}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":194,\"timestamp\":\"2026-04-29T07:25:19.972Z\",\"status\":200,\"duration\":236.261}" source=console
+time="2026-04-29T02:25:19-05:00" level=info msg="{\"globalIndex\":93,\"timestamp\":\"2026-04-29T07:25:19.984Z\",\"status\":200,\"duration\":106.414}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":790,\"timestamp\":\"2026-04-29T07:25:20.044Z\",\"status\":200,\"duration\":216.57}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":297,\"timestamp\":\"2026-04-29T07:25:20.044Z\",\"status\":200,\"duration\":104.944}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":391,\"timestamp\":\"2026-04-29T07:25:20.059Z\",\"status\":200,\"duration\":231.264}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":492,\"timestamp\":\"2026-04-29T07:25:20.128Z\",\"status\":200,\"duration\":105.19}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":588,\"timestamp\":\"2026-04-29T07:25:20.250Z\",\"status\":200,\"duration\":325.498}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":994,\"timestamp\":\"2026-04-29T07:25:20.250Z\",\"status\":200,\"duration\":293.94}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":195,\"timestamp\":\"2026-04-29T07:25:20.250Z\",\"status\":200,\"duration\":176.473}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":686,\"timestamp\":\"2026-04-29T07:25:20.250Z\",\"status\":200,\"duration\":315.471}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":890,\"timestamp\":\"2026-04-29T07:25:20.250Z\",\"status\":200,\"duration\":289.333}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":298,\"timestamp\":\"2026-04-29T07:25:20.285Z\",\"status\":200,\"duration\":139.766}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":94,\"timestamp\":\"2026-04-29T07:25:20.302Z\",\"status\":200,\"duration\":216.178}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":493,\"timestamp\":\"2026-04-29T07:25:20.346Z\",\"status\":200,\"duration\":116.224}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":392,\"timestamp\":\"2026-04-29T07:25:20.381Z\",\"status\":200,\"duration\":220.918}" source=console
+
+running (0m27.0s), 10/10 VUs, 928 complete and 0 interrupted iterations
+default   [  93% ] 10 VUs  27.0s/30s  0928/1000 shared iters
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":687,\"timestamp\":\"2026-04-29T07:25:20.456Z\",\"status\":200,\"duration\":105.768}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":891,\"timestamp\":\"2026-04-29T07:25:20.492Z\",\"status\":200,\"duration\":141.213}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":791,\"timestamp\":\"2026-04-29T07:25:20.492Z\",\"status\":200,\"duration\":346.18}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":95,\"timestamp\":\"2026-04-29T07:25:20.508Z\",\"status\":200,\"duration\":105.925}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":494,\"timestamp\":\"2026-04-29T07:25:20.549Z\",\"status\":200,\"duration\":101.953}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":995,\"timestamp\":\"2026-04-29T07:25:20.575Z\",\"status\":200,\"duration\":224.069}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":196,\"timestamp\":\"2026-04-29T07:25:20.583Z\",\"status\":200,\"duration\":232.436}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":393,\"timestamp\":\"2026-04-29T07:25:20.616Z\",\"status\":200,\"duration\":133.728}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":589,\"timestamp\":\"2026-04-29T07:25:20.618Z\",\"status\":200,\"duration\":267.163}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":299,\"timestamp\":\"2026-04-29T07:25:20.655Z\",\"status\":200,\"duration\":268.363}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":495,\"timestamp\":\"2026-04-29T07:25:20.776Z\",\"status\":200,\"duration\":125.49}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":688,\"timestamp\":\"2026-04-29T07:25:20.776Z\",\"status\":200,\"duration\":218.493}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":96,\"timestamp\":\"2026-04-29T07:25:20.776Z\",\"status\":200,\"duration\":167.009}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":892,\"timestamp\":\"2026-04-29T07:25:20.777Z\",\"status\":200,\"duration\":182.995}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":996,\"timestamp\":\"2026-04-29T07:25:20.819Z\",\"status\":200,\"duration\":143.597}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":792,\"timestamp\":\"2026-04-29T07:25:20.819Z\",\"status\":200,\"duration\":226.129}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":394,\"timestamp\":\"2026-04-29T07:25:20.861Z\",\"status\":200,\"duration\":144.031}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":197,\"timestamp\":\"2026-04-29T07:25:20.875Z\",\"status\":200,\"duration\":191.036}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":300,\"timestamp\":\"2026-04-29T07:25:20.875Z\",\"status\":200,\"duration\":119.309}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":590,\"timestamp\":\"2026-04-29T07:25:20.884Z\",\"status\":200,\"duration\":165.614}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":689,\"timestamp\":\"2026-04-29T07:25:20.976Z\",\"status\":200,\"duration\":99.577}" source=console
+time="2026-04-29T02:25:20-05:00" level=info msg="{\"globalIndex\":496,\"timestamp\":\"2026-04-29T07:25:20.986Z\",\"status\":200,\"duration\":108.753}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":97,\"timestamp\":\"2026-04-29T07:25:21.005Z\",\"status\":200,\"duration\":128.208}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":997,\"timestamp\":\"2026-04-29T07:25:21.016Z\",\"status\":200,\"duration\":95.342}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":395,\"timestamp\":\"2026-04-29T07:25:21.065Z\",\"status\":200,\"duration\":103.368}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":301,\"timestamp\":\"2026-04-29T07:25:21.070Z\",\"status\":200,\"duration\":94.533}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":793,\"timestamp\":\"2026-04-29T07:25:21.079Z\",\"status\":200,\"duration\":158.698}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":591,\"timestamp\":\"2026-04-29T07:25:21.086Z\",\"status\":200,\"duration\":100.264}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":893,\"timestamp\":\"2026-04-29T07:25:21.110Z\",\"status\":200,\"duration\":233.549}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":497,\"timestamp\":\"2026-04-29T07:25:21.192Z\",\"status\":200,\"duration\":105.79}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":998,\"timestamp\":\"2026-04-29T07:25:21.298Z\",\"status\":200,\"duration\":181.555}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":198,\"timestamp\":\"2026-04-29T07:25:21.298Z\",\"status\":200,\"duration\":322.215}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":98,\"timestamp\":\"2026-04-29T07:25:21.298Z\",\"status\":200,\"duration\":192.101}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":396,\"timestamp\":\"2026-04-29T07:25:21.298Z\",\"status\":200,\"duration\":131.862}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":794,\"timestamp\":\"2026-04-29T07:25:21.298Z\",\"status\":200,\"duration\":118.407}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":690,\"timestamp\":\"2026-04-29T07:25:21.298Z\",\"status\":200,\"duration\":221.235}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":302,\"timestamp\":\"2026-04-29T07:25:21.321Z\",\"status\":200,\"duration\":149.793}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":592,\"timestamp\":\"2026-04-29T07:25:21.329Z\",\"status\":200,\"duration\":142.628}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":498,\"timestamp\":\"2026-04-29T07:25:21.384Z\",\"status\":200,\"duration\":90.471}" source=console
+
+running (0m28.0s), 10/10 VUs, 967 complete and 0 interrupted iterations
+default   [  97% ] 10 VUs  28.0s/30s  0967/1000 shared iters
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":691,\"timestamp\":\"2026-04-29T07:25:21.504Z\",\"status\":200,\"duration\":105.315}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":999,\"timestamp\":\"2026-04-29T07:25:21.504Z\",\"status\":200,\"duration\":105.267}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":795,\"timestamp\":\"2026-04-29T07:25:21.504Z\",\"status\":200,\"duration\":105.403}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":397,\"timestamp\":\"2026-04-29T07:25:21.504Z\",\"status\":200,\"duration\":105.401}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":894,\"timestamp\":\"2026-04-29T07:25:21.513Z\",\"status\":200,\"duration\":301.104}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":199,\"timestamp\":\"2026-04-29T07:25:21.543Z\",\"status\":200,\"duration\":144.463}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":499,\"timestamp\":\"2026-04-29T07:25:21.578Z\",\"status\":200,\"duration\":93.118}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":99,\"timestamp\":\"2026-04-29T07:25:21.634Z\",\"status\":200,\"duration\":235.952}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":303,\"timestamp\":\"2026-04-29T07:25:21.648Z\",\"status\":200,\"duration\":225.589}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":593,\"timestamp\":\"2026-04-29T07:25:21.664Z\",\"status\":200,\"duration\":233.327}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":1000,\"timestamp\":\"2026-04-29T07:25:21.705Z\",\"status\":200,\"duration\":99.883}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":398,\"timestamp\":\"2026-04-29T07:25:21.705Z\",\"status\":200,\"duration\":99.882}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":692,\"timestamp\":\"2026-04-29T07:25:21.822Z\",\"status\":200,\"duration\":216.459}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":796,\"timestamp\":\"2026-04-29T07:25:21.831Z\",\"status\":200,\"duration\":225.362}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":895,\"timestamp\":\"2026-04-29T07:25:21.849Z\",\"status\":200,\"duration\":235.39}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":200,\"timestamp\":\"2026-04-29T07:25:21.875Z\",\"status\":200,\"duration\":230.404}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":500,\"timestamp\":\"2026-04-29T07:25:21.898Z\",\"status\":200,\"duration\":218.623}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":1001,\"timestamp\":\"2026-04-29T07:25:21.927Z\",\"status\":200,\"duration\":119.975}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":100,\"timestamp\":\"2026-04-29T07:25:21.927Z\",\"status\":200,\"duration\":190.843}" source=console
+time="2026-04-29T02:25:21-05:00" level=info msg="{\"globalIndex\":304,\"timestamp\":\"2026-04-29T07:25:21.927Z\",\"status\":200,\"duration\":177.543}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":594,\"timestamp\":\"2026-04-29T07:25:22.045Z\",\"status\":200,\"duration\":280.482}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":399,\"timestamp\":\"2026-04-29T07:25:22.052Z\",\"status\":200,\"duration\":244.872}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":201,\"timestamp\":\"2026-04-29T07:25:22.084Z\",\"status\":200,\"duration\":108.122}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":1002,\"timestamp\":\"2026-04-29T07:25:22.138Z\",\"status\":200,\"duration\":110.655}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":305,\"timestamp\":\"2026-04-29T07:25:22.138Z\",\"status\":200,\"duration\":110.655}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":693,\"timestamp\":\"2026-04-29T07:25:22.153Z\",\"status\":200,\"duration\":229.578}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":797,\"timestamp\":\"2026-04-29T07:25:22.163Z\",\"status\":200,\"duration\":231.934}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":896,\"timestamp\":\"2026-04-29T07:25:22.176Z\",\"status\":200,\"duration\":225.753}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":501,\"timestamp\":\"2026-04-29T07:25:22.235Z\",\"status\":200,\"duration\":236.863}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":595,\"timestamp\":\"2026-04-29T07:25:22.347Z\",\"status\":200,\"duration\":200.674}" source=console
+time="2026-04-29T02:25:22-05:00" level=info msg="{\"globalIndex\":101,\"timestamp\":\"2026-04-29T07:25:22.347Z\",\"status\":200,\"duration\":318.665}" source=console
+
+running (0m29.0s), 02/10 VUs, 998 complete and 0 interrupted iterations
+default   [ 100% ] 10 VUs  29.0s/30s  0998/1000 shared iters
+
+     ✓ is status 200
+
+     checks.........................: 100.00% 1000 out of 1000
+     data_received..................: 448 kB  15 kB/s
+     data_sent......................: 200 kB  6.9 kB/s
+     http_req_blocked...............: avg=2.09ms   min=0s      med=1µs      max=214.93ms p(90)=2µs      p(95)=2µs     
+     http_req_connecting............: avg=180.56µs min=0s      med=0s       max=18.11ms  p(90)=0s       p(95)=0s      
+     http_req_duration..............: avg=185.1ms  min=87.99ms med=173.24ms max=378.82ms p(90)=279.28ms p(95)=311.12ms
+       { expected_response:true }...: avg=185.1ms  min=87.99ms med=173.24ms max=378.82ms p(90)=279.28ms p(95)=311.12ms
+     http_req_failed................: 0.00%   0 out of 1000
+     http_req_receiving.............: avg=100.62µs min=12µs    med=74µs     max=3.24ms   p(90)=133.1µs  p(95)=165µs   
+     http_req_sending...............: avg=202.54µs min=22µs    med=173.5µs  max=3.57ms   p(90)=345.1µs  p(95)=417.04µs
+     http_req_tls_handshaking.......: avg=361.69µs min=0s      med=0s       max=42.06ms  p(90)=0s       p(95)=0s      
+     http_req_waiting...............: avg=184.8ms  min=87.66ms med=173.04ms max=378.73ms p(90)=278.96ms p(95)=310.83ms
+     http_reqs......................: 1000    34.459413/s
+     iteration_duration.............: avg=288.5ms  min=188.8ms med=275.28ms max=605.58ms p(90)=384.04ms p(95)=417.62ms
+     iterations.....................: 1000    34.459413/s
+     vus............................: 2       min=2            max=10
+     vus_max........................: 10      min=10           max=10
+
+
+running (0m29.0s), 00/10 VUs, 1000 complete and 0 interrupted iterations
+default ✓ [ 100% ] 10 VUs  29.0s/30s  1000/1000 shared iters

@@ -1,0 +1,60 @@
+Delivered-To: pedropablo1996@gmail.com
+Received: by 2002:aa7:cd8c:0:b0:672:299f:aba8 with SMTP id x12csp967937edv;
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+X-Received: by 2002:a05:622a:550f:b0:50d:8b23:4948 with SMTP id d75a77b69052e-5100e1dc544mr84363421cf.46.1777447523049;
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1777447523; cv=none;
+        d=google.com; s=arc-20240605;
+        b=f+ozXX9rbnffcWU+S9n06nPf2nXFOJvibWh8Vn1v47k2/n9TPObMu9DVG0tySU8pFD
+         rO4XR6M9KckxEQJvgQeEpOqiWFuJK5rnoYzboYo5iX7EjXk9p3m/0/9KU4EqPmj+JrGH
+         Eb3LiGSfBHJsiIeMDCzCOskJHlIUAdeFiwEEjWfxJUbCVsAScsRGa2tUlKHaL/9fIxax
+         q1LgMLKwef+hsBQW8fu4+NcxYlXlu/3tVUAZpQuQciJ25kbj1PNreHMSYYi68QpBijzx
+         sySQwRDKMT0PbUhB6myBbErUOGgB207al3EuzY5kchiIHTglmldqlbbhtpvkQjCSYjEu
+         4R/g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:date:message-id:content-transfer-encoding:mime-version
+         :subject:to:from:dkim-signature;
+        bh=rJFV8KTs0Ce5DCizIYVVjdmS7OZPLawu0WBSfCjWiQo=;
+        fh=Q8rq9ZInScX3HET3vZpLG7IiQVHjEdiVEb9FNULNIJA=;
+        b=JXwK6WGJGnmvVVI6q/E6rlIDwonDxPFxm1QU/wmOTa+bKnTHJ/I++0i90svCV1iHnj
+         5fwaEy5qrEGdf9+jayR+RTRL4nvjwtDR4Jzs/VFgxPeVBKWFcIyUvXv1BJRrEN796ylQ
+         ec1SwCTFwDPh1r4GjSWrfDnDKl8SuNSDlTmxm2e0iRpdaXfHD5dUnycwqcRRd2LEqX7Q
+         4VrW4VRo/vQeEy1bfXA5LhgIj5Rtr2zJzacpGodg/gJdTVBsPv3+uNMiYekY4ReWeViO
+         nAZku9vuCQeJLkSW+VHQdV+PDTeuo9oI0eM9inqh3PAUj02+feodmY7WninRD7YBVysO
+         B7Cg==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=IWsOltMz;
+       spf=pass (google.com: domain of 0100019dd820d148-aab854d2-3f04-4bf9-8591-23c81b45e8a4-000000@amazonses.com designates 54.240.48.89 as permitted sender) smtp.mailfrom=0100019dd820d148-aab854d2-3f04-4bf9-8591-23c81b45e8a4-000000@amazonses.com;
+       dmarc=fail (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <0100019dd820d148-aab854d2-3f04-4bf9-8591-23c81b45e8a4-000000@amazonses.com>
+Received: from a48-89.smtp-out.amazonses.com (a48-89.smtp-out.amazonses.com. [54.240.48.89])
+        by mx.google.com with ESMTPS id d75a77b69052e-5101acc2f1asi15047361cf.108.2026.04.29.00.25.22
+        for <pedropablo1996@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0100019dd820d148-aab854d2-3f04-4bf9-8591-23c81b45e8a4-000000@amazonses.com designates 54.240.48.89 as permitted sender) client-ip=54.240.48.89;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=IWsOltMz;
+       spf=pass (google.com: domain of 0100019dd820d148-aab854d2-3f04-4bf9-8591-23c81b45e8a4-000000@amazonses.com designates 54.240.48.89 as permitted sender) smtp.mailfrom=0100019dd820d148-aab854d2-3f04-4bf9-8591-23c81b45e8a4-000000@amazonses.com;
+       dmarc=fail (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1777447522;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID;
+	bh=rJFV8KTs0Ce5DCizIYVVjdmS7OZPLawu0WBSfCjWiQo=;
+	b=IWsOltMzBpFE2IzZ3kEgChuUnsb9vfDMsDMc8nhUm7a9weMofS310wtwQRjl0DhB
+	4D5BRszuSToKYvBsnO2wmvcD1dCRg1hO0o74uCgX+XH51OxuSRE0CJpR8hddleo7snD
+	aAaNb4vYA/OPKEGbcEBYqfP22Vo/vnYXhIv3I2Og=
+From: pedropablo1996@gmail.com
+To: pedropablo1996@gmail.com
+Subject: Emergency Alert
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-ID: <0100019dd820d148-aab854d2-3f04-4bf9-8591-23c81b45e8a4-000000@email.amazonses.com>
+Date: Wed, 29 Apr 2026 07:25:22 +0000
+Feedback-ID: ::1.us-east-1.UR6Lxg/02HPCx8MlubjTKsemPXs/ySchaOR0TG+iJDk=:AmazonSES
+X-SES-Outgoing: 2026.04.29-54.240.48.89
+
+Emergency from vehicle: TYZ-463
+Coordinates: -8.268386, 59.136143

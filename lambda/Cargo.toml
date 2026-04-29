@@ -1,0 +1,16 @@
+[package]
+name = "lambda"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aws_lambda_events = { version = "0.15", default-features = false, features = ["sqs"] }
+lambda_runtime = "0.13"
+aws-sdk-sesv2 = "1"
+aws-config = { version = "1", features = ["behavior-version-latest"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
+tokio = { version = "1", features = ["macros"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"

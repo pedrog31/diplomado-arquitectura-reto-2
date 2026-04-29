@@ -1,0 +1,60 @@
+Delivered-To: pedropablo1996@gmail.com
+Received: by 2002:aa7:cd8c:0:b0:672:299f:aba8 with SMTP id x12csp967936edv;
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+X-Received: by 2002:a05:622a:47:b0:50e:41fd:52e with SMTP id d75a77b69052e-5100e1b6d69mr89755731cf.37.1777447523001;
+        Wed, 29 Apr 2026 00:25:23 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1777447522; cv=none;
+        d=google.com; s=arc-20240605;
+        b=AyvefjYeSliDyCsNxqt4vTajTEQoeYLfITxybfB5zjX7qknADxgoK1/DQYIFqXHxbb
+         aLav+JfNlwcWVxHXyDQ2jSA8HH5KGm3EZmmAMaZVBKdAJOg66diwt6cUfVlA/v8P1qAi
+         nwqRldkwxXKnGv6LhbKqCl6UDhV91lh1K08n/D8MLXBCrYbkww6IizSlINU6hVyj8gW6
+         q70cImaRYelc0BTYpq7vx+D2vTSw/4sA884SRbgF687uj/Ir5pbb1r8F2yLTSpHMqkTE
+         JmKcQFQKot+LWBgLDdMpUe0U8SlRws7SjopVny0QGtCIjzT9K/Fnm7p/i8exIUFD662p
+         dYag==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=feedback-id:date:message-id:content-transfer-encoding:mime-version
+         :subject:to:from:dkim-signature;
+        bh=T6ntv2p1yCm/Y6SIsPAKDqgbw60SNgi4kR9oJHrfcKk=;
+        fh=Q8rq9ZInScX3HET3vZpLG7IiQVHjEdiVEb9FNULNIJA=;
+        b=VzrRCdnFUq+8iq+W14dRXOfBb29WvIFcWTfDRo/XqwgpQXLVlUJve6/tt7EpJU+wSm
+         74JhwQo0QRYjdS0CWfFomOgkPnRR3eKAKFGw0C469lQgImWK9DEZnpGECCBAK4IgyTUQ
+         dfaupckS8weR1j0K7wBF5Ear2GZCsRAUDsRDiRQ5Ma2OuxRmgyNjLgDhiCOQG242j2yD
+         A6OJUu7s3aIS3yi0532biU0tkJ61Vv8hIv9NbrFmr8dL/1ygmDyXWljnafh9kx23/qmZ
+         R88VtXjVaBGbif41yf3mOOFzEn49cVygbSPxGX0Cg7wC7w5ptLXGCUq1d3We62G+1Sg+
+         7hwA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=ZPww7O0U;
+       spf=pass (google.com: domain of 0100019dd820d06f-69f5131c-480c-4131-a3aa-e370ce272703-000000@amazonses.com designates 54.240.48.97 as permitted sender) smtp.mailfrom=0100019dd820d06f-69f5131c-480c-4131-a3aa-e370ce272703-000000@amazonses.com;
+       dmarc=fail (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <0100019dd820d06f-69f5131c-480c-4131-a3aa-e370ce272703-000000@amazonses.com>
+Received: from a48-97.smtp-out.amazonses.com (a48-97.smtp-out.amazonses.com. [54.240.48.97])
+        by mx.google.com with ESMTPS id d75a77b69052e-5101aee09f3si12290761cf.282.2026.04.29.00.25.22
+        for <pedropablo1996@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Wed, 29 Apr 2026 00:25:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0100019dd820d06f-69f5131c-480c-4131-a3aa-e370ce272703-000000@amazonses.com designates 54.240.48.97 as permitted sender) client-ip=54.240.48.97;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@amazonses.com header.s=224i4yxa5dv7c2xz3womw6peuasteono header.b=ZPww7O0U;
+       spf=pass (google.com: domain of 0100019dd820d06f-69f5131c-480c-4131-a3aa-e370ce272703-000000@amazonses.com designates 54.240.48.97 as permitted sender) smtp.mailfrom=0100019dd820d06f-69f5131c-480c-4131-a3aa-e370ce272703-000000@amazonses.com;
+       dmarc=fail (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1777447522;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID;
+	bh=T6ntv2p1yCm/Y6SIsPAKDqgbw60SNgi4kR9oJHrfcKk=;
+	b=ZPww7O0Ub/G+OXjRUX1gml8MVb8K9owCxT349EWK71O6TlVJa3Gk42N8UGBoY9oL
+	FUNMTe0FY0Is6T65LYZO3qjIUMF3Wz5WKFikiuGnasL+0/Vvu11EZS/li4ko/IqEH7A
+	+8ATcaWQ0/GEWK7fsHlHRUXji1vIJMKKsbw+Vl1M=
+From: pedropablo1996@gmail.com
+To: pedropablo1996@gmail.com
+Subject: Emergency Alert
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Message-ID: <0100019dd820d06f-69f5131c-480c-4131-a3aa-e370ce272703-000000@email.amazonses.com>
+Date: Wed, 29 Apr 2026 07:25:22 +0000
+Feedback-ID: ::1.us-east-1.UR6Lxg/02HPCx8MlubjTKsemPXs/ySchaOR0TG+iJDk=:AmazonSES
+X-SES-Outgoing: 2026.04.29-54.240.48.97
+
+Emergency from vehicle: MHT-359
+Coordinates: -30.008701, 56.519514
